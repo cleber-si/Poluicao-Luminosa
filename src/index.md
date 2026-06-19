@@ -5,7 +5,7 @@ toc: false
 
 <!-- HEADER DA PÁGINA -->
 <div class="hero">
-  <h1>Onde Estão as Noites no Brasil?</h1>
+  <h1>Onde Estão as Noites Escuras no Brasil?</h1>
   <h2>Por Cleber Silva e Brício Freitas</h2>
 </div>
 
@@ -45,19 +45,70 @@ CARREGA AS IMAGENS PRÉ-PROCESSADAS DOS RASTERS DO MAPA DO BRASIL
 
 Ia ser muito legal achar algma forma de deixar isso aqui mais dinâmico
 -->
-<div class="grid grid-cols-1">
+<!-- <div class="grid grid-cols-1">
   <div class="card">
     <img src="images/brasil_luzes.png" style="width: {width}; height: auto;">
   </div>
-</div>
+</div> -->
 
 <!-- Colocar aqui uma explicação conceitual de como sair de um mapa para o outro -->
 
-<div class="grid grid-cols-1">
+<!-- <div class="grid grid-cols-1">
   <div class="card">
     <img src="images/brazil_falchi_map_2015_tranparent.png" style="width: {width}; height: auto;">
   </div>
+</div> -->
+
+
+
+```js
+import {RasterTileMap} from "./components/RasterTileMap.js";
+const viirsPng = await FileAttachment("assets/viirs_brazil_2024.png").href;
+const falchiPng = await FileAttachment("assets/falchi_brazil_2015.png").href;
+let viirsTilesMeta = null;
+let falchiTilesMeta = null;
+try {
+  viirsTilesMeta = await FileAttachment("assets/tiles/viirs/metadata.json").href;
+} catch (e) {
+  // tiles VIIRS ainda não gerados
+}
+try {
+  falchiTilesMeta = await FileAttachment("assets/tiles/falchi/metadata.json").href;
+} catch (e) {
+  // tiles Falchi ainda não gerados
+}
+```
+
+<div class="section" style="padding-top:0">
+  ${RasterTileMap({
+    metadataUrl: viirsTilesMeta,
+    fallbackImage: viirsPng,
+    boundaries: brazilStates,
+    width: 820,
+    height: 760,
+    attribution: "VIIRS/VNL 2024 · Earth Observation Group"
+  })}
+  <div class="caption">
+    Radiância de subida (escala log + paleta viridis).
+  </div>
 </div>
+
+<div class="section" style="padding-top:0">
+  ${RasterTileMap({
+    metadataUrl: falchiTilesMeta,
+    fallbackImage: falchiPng,
+    boundaries: brazilStates,
+    width: 820,
+    height: 760,
+    attribution: "Falchi et al. (2016), World Atlas 2015"
+  })}
+  <div class="caption">
+    Brilho artificial do céu (razão sobre o brilho natural), Atlas Mundial 2015.
+    Compare com o mapa VIIRS acima: os mesmos núcleos urbanos, agora cercados
+    por halos de luz espalhada. Este mapa mostra o que o observador realmente perde de céu.
+  </div>
+</div>
+
 
 
 
@@ -75,7 +126,8 @@ const brazilStates = FileAttachment("./data/brazil-states.json").json({typed: tr
     Fazendo alguns testes aqui depois, acho que isso tem relação com a legenda do colorbar, que fica atualizando a
     posição cada vez que o width é atualizado.-->
     <!-- ${resize((width) => radianciaTotal(brazilStates, {width}))} -->
-    ${resize((width) => radianciaMedia(brazilStates, {width: Math.min(width, 850)}))}
+    <!-- ${resize((width) => radianciaMedia(brazilStates, {width: Math.min(width, 850)}))} -->
+    ${radianciaMedia(brazilStates)}
   </div>
 </div>
 
@@ -85,9 +137,11 @@ const brazilStates = FileAttachment("./data/brazil-states.json").json({typed: tr
     Fazendo alguns testes aqui depois, acho que isso tem relação com a legenda do colorbar, que fica atualizando a
     posição cada vez que o width é atualizado.-->
     <!-- ${resize((width) => radianciaTotal(brazilStates, {width}))} -->
-    ${resize((width) => radianciaTotal(brazilStates, {width: Math.min(width, 850)}))}
+    <!-- ${resize((width) => radianciaTotal(brazilStates, {width: Math.min(width, 850)}))} -->
+    ${radianciaTotal(brazilStates)}
   </div>
 </div>
+
 
 
 

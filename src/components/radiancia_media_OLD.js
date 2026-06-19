@@ -5,23 +5,7 @@ import * as vegaLiteApi from "npm:vega-lite-api";
 const vl = vegaLiteApi.register(vega, vegaLite);
 
 export function radianciaMedia(brazilStates, {width = 900} = {}) {
-  // A altura acompanha a largura, mantendo a proporção do mapa do Brasil.
-  const height = width * 0.65;
-
-  // O comprimento da legenda NÃO depende mais da largura da página.
-  // Era isso que causava o "loop" de redimensionamento infinito:
-  // a cada resize, a legenda recalculava seu tamanho e disparava
-  // outro relayout. Agora ela tem um tamanho fixo e estável.
-  const legendLength = 640;
-
-  // IMPORTANTE: vl....render() é assíncrono (retorna uma Promise).
-  // Se devolvêssemos essa Promise direto para o resize(), o mapa não
-  // seria re-renderizado de forma confiável ao arrastar a janela —
-  // era exatamente esse o bug. A solução é devolver, de forma SÍNCRONA,
-  // um <div> contêiner e preenchê-lo quando a renderização terminar.
-  const container = document.createElement("div");
-
-  vl.markGeoshape({
+  return vl.markGeoshape({
     stroke: "white",
     strokeWidth: 0.7
   })
@@ -38,7 +22,9 @@ export function radianciaMedia(brazilStates, {width = 900} = {}) {
       .legend({
         title: "Radiância Média",
         values: [0, 0.1, 0.2, 0.5, 1, 2, 4, 8],
-        gradientLength: legendLength,
+        // labels: [27.0, 46.2, 79.0, 135.0, 230.9, 400.0, 680.0, 1150.0, 2000.0], // Não funciona...
+        // labelExpr: "datum.value >= 1000000 ? format(datum.value / 1000000, '.1f') + 'M' : format(datum.value / 1000, '.0f') + 'k'",
+        gradientLength: width,
         labelFontSize: 14,
         titleFontSize: 15,
         offset: 30,
@@ -56,13 +42,10 @@ export function radianciaMedia(brazilStates, {width = 900} = {}) {
   )
   .project(vl.projection("mercator"))
   .width(width)
-  .height(height)
+  .height(650)
   .config({
     view: {stroke: null},
     background: "transparent"
   })
-  .render()
-  .then((node) => container.replaceChildren(node));
-
-  return container;
+  .render();
 }

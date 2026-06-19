@@ -6,19 +6,13 @@ const vl = vegaLiteApi.register(vega, vegaLite);
 
 export function radianciaTotal(brazilStates, {width = 900} = {}) {
   // A altura acompanha a largura, mantendo a proporção do mapa do Brasil.
-  const height = width * 0.65;
+  const height = width * 0.95;
 
   // Comprimento fixo da legenda (não depende mais da largura da página).
   // Isso elimina o loop de relayout que fazia a colorbar "tremer".
-  const legendLength = 640;
+  const legendLength = 620;
 
-  // IMPORTANTE: vl....render() é assíncrono (retorna uma Promise).
-  // Devolvemos de forma SÍNCRONA um <div> contêiner e o preenchemos
-  // quando a renderização terminar — assim o resize() re-renderiza
-  // o mapa de forma confiável ao arrastar a janela.
-  const container = document.createElement("div");
-
-  vl.markGeoshape({
+  return vl.markGeoshape({
     stroke: "white",
     strokeWidth: 0.7
   })
@@ -57,10 +51,8 @@ export function radianciaTotal(brazilStates, {width = 900} = {}) {
   .height(height)
   .config({
     view: {stroke: null},
-    background: "transparent"
+    background: "transparent",
+    autosize: {type: "fit", contains: "padding"}
   })
-  .render()
-  .then((node) => container.replaceChildren(node));
-
-  return container;
+  .render();
 }

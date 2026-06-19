@@ -18,17 +18,6 @@ export function barrasPaisesSelecionados(data, {width = 900} = {}) {
     countries.includes(d.country_or_region)
   );
 
-  // Ordena os países pelo valor da faixa >3000 (decrescente).
-  // "World" é fixado no final, para servir de referência.
-  const orderedCountries = selected
-    .slice()
-    .sort((a, b) => {
-      if (a.country_or_region === "World") return 1;
-      if (b.country_or_region === "World") return -1;
-      return b["population_pct_>3000_µcd_m2"] - a["population_pct_>3000_µcd_m2"];
-    })
-    .map((d) => d.country_or_region);
-
   const plotData = selected.flatMap((d) => [
     {
       country: d.country_or_region,
@@ -77,7 +66,7 @@ export function barrasPaisesSelecionados(data, {width = 900} = {}) {
     },
 
     y: {
-      domain: orderedCountries,
+      domain: countries,
       label: null
     },
 
