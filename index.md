@@ -66,10 +66,18 @@ import {RasterTileMap} from "./components/RasterTileMap.js";
 const viirsPng = await FileAttachment("assets/viirs_brazil_2024.png").href;
 const falchiPng = await FileAttachment("assets/falchi_brazil_2015.png").href;
 
-const siteBase = new URL(".", document.baseURI);
-
-const viirsTilesMeta = new URL("assets/tiles/viirs/metadata.json", siteBase).href;
-const falchiTilesMeta = new URL("assets/tiles/falchi/metadata.json", siteBase).href;
+let viirsTilesMeta = null;
+let falchiTilesMeta = null;
+try {
+  viirsTilesMeta = await FileAttachment("assets/tiles/viirs/metadata.json").href;
+} catch (e) {
+  // tiles VIIRS ainda não gerados
+}
+try {
+  falchiTilesMeta = await FileAttachment("assets/tiles/falchi/metadata.json").href;
+} catch (e) {
+  // tiles Falchi ainda não gerados
+}
 ```
 
 <div class="section" style="padding-top:0">

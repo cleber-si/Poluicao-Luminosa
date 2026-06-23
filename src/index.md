@@ -65,6 +65,7 @@ Ia ser muito legal achar algma forma de deixar isso aqui mais dinâmico
 import {RasterTileMap} from "./components/RasterTileMap.js";
 const viirsPng = await FileAttachment("assets/viirs_brazil_2024.png").href;
 const falchiPng = await FileAttachment("assets/falchi_brazil_2015.png").href;
+
 let viirsTilesMeta = null;
 let falchiTilesMeta = null;
 try {
