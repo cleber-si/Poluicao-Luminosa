@@ -1,7 +1,7 @@
 // See https://observablehq.com/framework/config for documentation.
 export default {
   // The app’s title; used in the sidebar and webpage titles.
-  title: "Onde Estão as Noites no Brasil?",
+  title: "Onde Estão as Noites Escuras no Brasil?",
 
   // The pages and sections in the sidebar. If you don’t specify this option,
   // all pages will be listed in alphabetical order. Listing pages explicitly
@@ -21,6 +21,7 @@ export default {
 
   // The path to the source root.
   root: "src",
+  base: "/Poluicao-Luminosa/"
 
   // Some additional configuration options and their defaults:
   // theme: "default", // try "light", "dark", "slate", etc.
