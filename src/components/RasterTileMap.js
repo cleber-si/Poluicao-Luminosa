@@ -97,7 +97,8 @@ export function RasterTileMap({
         })
         .then((meta) => {
           // Base dos tiles = diretório do metadata.json.
-          const base = metadataUrl.replace(/\/metadata\.json.*$/, "");
+          // const base = metadataUrl.replace(/\/metadata\.json.*$/, "");
+          const base = metadataUrl.replace(/\/metadata(?:\.[^/]+)?\.json(?:[?#].*)?$/, "");
           L.tileLayer(`${base}/{z}/{x}/{y}.png`, {
             minZoom: meta.minzoom ?? 3,
             maxZoom: meta.maxzoom ?? 8,
