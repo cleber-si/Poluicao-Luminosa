@@ -1,0 +1,8 @@
+.DS_Store
+/dist/
+node_modules/
+yarn-error.log
+/src/index_full.md
+/src/images/ChatGPT Image 23 de jun. de 2026, 13_47_08.png
+/src/images/ChatGPT Image 23 de jun. de 2026, 13_47_19.png
+/src/images/ChatGPT Image 23 de jun. de 2026, 13_47_39.png

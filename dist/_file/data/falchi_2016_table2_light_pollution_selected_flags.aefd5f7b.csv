@@ -1,0 +1,223 @@
+country_or_region,flag_URL,is_nonindependent_territory,population_pct_≤1.7_µcd_m2,population_pct_>1.7_µcd_m2,population_pct_>14_µcd_m2,population_pct_>87_µcd_m2,population_pct_>688_µcd_m2,population_pct_>3000_µcd_m2,area_pct_≤1.7_µcd_m2,area_pct_>1.7_µcd_m2,area_pct_>14_µcd_m2,area_pct_>87_µcd_m2,area_pct_>688_µcd_m2,area_pct_>3000_µcd_m2,source_url
+Afghanistan,,False,39.1,60.9,37.2,26.5,11.6,0.0,79.4,20.6,4.0,0.8,0.0,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Albania,,False,0.0,100.0,98.5,75.6,37.1,10.3,0.0,100.0,87.5,23.8,1.7,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Algeria,,False,0.3,99.7,98.5,91.9,52.1,19.2,66.4,33.6,19.3,8.7,1.1,0.2,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+American Samoa,,True,0.0,100.0,100.0,99.7,0.0,0.0,0.0,100.0,100.0,97.0,0.0,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Andorra,,False,0.0,100.0,100.0,100.0,43.6,0.0,0.0,100.0,100.0,98.1,1.5,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Angola,,False,55.2,44.8,33.2,27.5,15.2,7.0,88.5,11.5,2.9,0.8,0.2,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Anguilla,,True,0.0,100.0,100.0,99.3,0.0,0.0,0.0,100.0,100.0,95.5,0.0,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Antigua and Barbuda,,False,0.0,100.0,100.0,100.0,58.1,0.0,0.0,100.0,100.0,98.7,13.7,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Argentina,https://flagcdn.com/w80/ar.png,False,1.4,98.6,94.3,87.3,75.8,57.7,38.4,61.6,26.0,6.1,0.9,0.2,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Armenia,,False,0.0,100.0,86.3,57.9,31.3,0.0,0.0,100.0,35.1,6.2,0.3,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Aruba,,True,0.0,100.0,100.0,100.0,68.3,0.0,0.0,100.0,100.0,100.0,23.9,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Australia,https://flagcdn.com/w80/au.png,False,2.0,98.0,94.7,88.0,66.7,13.1,88.1,11.9,3.4,0.9,0.2,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Austria,,False,0.0,100.0,99.9,88.7,35.7,10.3,0.0,100.0,97.8,40.0,1.8,0.1,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Azerbaijan,,False,0.0,100.0,95.2,71.2,34.6,15.3,18.6,81.4,51.1,13.0,1.3,0.1,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Bangladesh,,False,1.1,98.9,79.2,32.2,10.4,0.0,5.3,94.7,60.7,11.5,0.6,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Barbados,,False,0.0,100.0,100.0,100.0,6.0,0.0,0.0,100.0,100.0,99.7,1.4,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Belarus,,False,0.0,100.0,92.7,74.9,48.5,12.0,0.0,100.0,63.2,10.3,0.9,0.1,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Belgium,,False,0.0,100.0,100.0,100.0,86.8,22.2,0.0,100.0,100.0,100.0,51.1,2.6,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Belize,,False,5.6,94.4,77.8,55.9,4.2,0.0,33.2,66.8,19.7,3.0,0.0,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Benin,,False,34.4,65.6,44.1,27.8,6.6,0.0,84.5,15.5,3.8,1.0,0.0,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Bhutan,,False,12.3,87.7,51.0,20.7,0.0,0.0,43.6,56.4,8.6,0.4,0.0,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Bolivia,,False,13.0,87.0,72.5,63.4,48.9,12.0,77.2,22.8,5.5,1.2,0.1,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Bosnia and Herzegovina,,False,0.0,100.0,98.9,79.0,26.2,0.0,0.0,100.0,88.7,26.0,0.7,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Botswana,,False,22.7,77.3,59.3,43.0,11.5,0.0,89.6,10.4,2.2,0.4,0.0,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Brazil,https://flagcdn.com/w80/br.png,False,1.2,98.8,94.7,86.7,62.5,32.3,52.6,47.4,21.6,5.7,0.7,0.1,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+British Virgin Islands,,True,0.0,100.0,100.0,100.0,0.0,0.0,0.0,100.0,100.0,100.0,0.0,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Brunei,,False,0.0,100.0,99.9,98.8,91.3,44.9,0.0,100.0,76.4,44.8,12.5,1.6,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Bulgaria,,False,0.0,100.0,99.2,77.3,37.0,4.9,0.0,100.0,94.6,19.5,0.9,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Burkina Faso,,False,59.2,40.8,23.4,16.9,10.9,0.0,84.5,15.5,2.7,0.5,0.1,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Burundi,,False,69.5,30.5,9.3,5.2,0.0,0.0,82.8,17.2,1.9,0.3,0.0,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Cambodia,,False,30.0,70.0,30.9,17.2,9.8,0.0,72.4,27.6,4.4,0.8,0.1,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Cameroon,,False,44.6,55.4,42.1,29.3,19.9,0.0,88.0,12.0,3.0,0.5,0.1,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Canada,https://flagcdn.com/w80/ca.png,False,0.2,99.8,98.9,94.6,76.2,48.3,80.8,19.2,9.0,2.7,0.3,0.1,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Cape Verde,,False,1.4,98.6,80.8,42.7,30.2,0.0,24.6,75.4,25.9,4.0,0.5,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Cayman Islands,,True,0.0,100.0,100.0,99.9,67.6,0.0,0.0,100.0,100.0,96.9,14.0,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Central African Republic,,False,78.2,21.8,19.9,17.1,0.0,0.0,99.7,0.3,0.1,0.0,0.0,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Chad,,False,78.7,21.3,14.0,9.5,7.5,0.0,98.2,1.8,0.5,0.1,0.0,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Chile,,False,0.8,99.2,94.5,87.5,74.4,39.7,51.4,48.6,18.4,5.1,0.7,0.1,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+China,https://flagcdn.com/w80/cn.png,False,0.9,99.1,88.9,64.6,32.5,11.9,44.8,55.2,30.0,10.8,1.6,0.2,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Christmas Island,,True,0.0,100.0,99.9,74.3,0.0,0.0,0.0,100.0,49.1,6.9,0.0,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Cocos Islands,,True,100.0,0.0,0.0,0.0,0.0,0.0,100.0,0.0,0.0,0.0,0.0,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Colombia,,False,3.0,97.0,89.3,75.0,54.6,18.7,55.8,44.2,22.1,5.2,0.5,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Comoros,,False,38.2,61.8,38.2,15.6,0.0,0.0,64.5,35.5,6.2,0.8,0.0,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Congo,,False,26.2,73.8,64.9,57.6,49.0,4.7,87.6,12.4,3.6,1.1,0.2,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+"Congo, Democratic Republic of the Congo",,False,69.6,30.4,22.2,17.5,11.8,3.3,95.8,4.2,1.0,0.2,0.0,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Cook Islands,,True,0.0,100.0,85.4,0.0,0.0,0.0,0.0,100.0,34.7,0.0,0.0,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Costa Rica,,False,0.0,100.0,97.3,81.8,52.9,2.4,0.4,99.6,70.4,18.3,1.6,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Cote d’Ivoire,,False,17.8,82.2,54.2,33.6,19.6,3.5,50.4,49.6,11.1,1.5,0.2,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Croatia,,False,0.0,100.0,100.0,95.2,50.5,21.2,0.0,100.0,98.9,62.2,4.0,0.4,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Cuba,,False,0.6,99.4,90.0,66.2,39.5,1.9,6.7,93.3,52.3,10.9,0.9,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Cyprus,,False,0.0,100.0,99.9,98.1,71.4,10.5,0.0,100.0,99.1,72.2,8.4,0.2,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Czech Republic,,False,0.0,100.0,100.0,97.5,42.8,7.3,0.0,100.0,100.0,82.3,3.6,0.2,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Denmark,,False,0.0,100.0,99.9,89.3,38.5,7.3,0.0,100.0,99.2,47.9,2.9,0.1,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Djibouti,,False,48.9,51.1,39.7,0.8,0.0,0.0,82.3,17.7,2.8,0.1,0.0,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Dominica,,False,0.0,100.0,94.5,43.7,0.0,0.0,0.0,100.0,44.4,5.7,0.0,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Dominican Republic,,False,0.0,100.0,98.1,82.3,57.6,22.6,0.2,99.8,79.8,23.0,2.8,0.3,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Ecuador,,False,0.4,99.6,95.3,78.3,50.0,17.7,17.2,82.8,53.4,14.9,1.7,0.2,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Egypt,,False,0.0,100.0,99.9,99.8,97.5,37.1,52.4,47.6,26.5,12.6,4.9,0.5,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+El Salvador,,False,0.0,100.0,94.9,67.3,24.2,0.0,0.0,100.0,80.2,18.7,1.1,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Equatorial Guinea,,False,17.2,82.8,54.2,39.1,20.0,0.0,20.4,79.6,22.3,3.6,0.3,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Eritrea,,False,65.1,34.9,21.9,13.3,0.0,0.0,95.5,4.5,0.7,0.1,0.0,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Estonia,,False,0.2,99.8,97.4,83.9,60.5,31.8,2.7,97.3,75.1,19.7,2.3,0.3,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Ethiopia,,False,73.9,26.1,11.3,6.1,1.5,0.0,93.4,6.6,1.2,0.2,0.0,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Falkland Islands,,True,17.6,82.4,80.2,67.8,0.0,0.0,88.7,11.3,1.8,0.2,0.0,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Faroe Islands,,True,0.0,100.0,96.5,74.5,12.6,0.0,0.1,99.9,84.3,21.5,0.3,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Fiji,,False,27.4,72.6,49.1,29.9,0.0,0.0,67.7,32.3,7.5,1.3,0.0,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Finland,,False,0.0,100.0,99.7,95.7,68.0,33.7,2.8,97.2,73.9,27.6,2.9,0.4,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+France,,False,0.0,100.0,100.0,94.3,58.9,26.6,0.0,100.0,100.0,64.5,6.7,0.7,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+French Guiana,,True,7.8,92.2,88.4,77.9,36.7,0.0,88.3,11.7,2.9,0.7,0.1,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+French Polynesia,,True,0.0,100.0,98.7,80.8,4.9,0.0,0.0,100.0,59.6,10.9,0.2,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Gabon,,False,22.0,78.0,69.4,56.9,38.7,0.2,77.5,22.5,7.9,2.0,0.3,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Gaza Strip,,True,0.0,100.0,100.0,100.0,95.1,0.0,0.0,100.0,100.0,100.0,68.1,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Georgia,,False,0.0,100.0,92.2,63.6,36.7,4.5,0.0,100.0,49.8,10.8,0.8,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Germany,,False,0.0,100.0,100.0,96.0,41.6,2.7,0.0,100.0,100.0,74.2,4.8,0.1,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Ghana,,False,15.5,84.5,60.6,37.1,21.4,0.4,51.5,48.5,16.3,3.4,0.5,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Gibraltar,,True,0.0,100.0,100.0,100.0,100.0,41.9,0.0,100.0,100.0,100.0,100.0,28.6,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Greece,,False,0.0,100.0,99.8,93.2,66.0,41.9,0.0,100.0,96.3,40.1,3.0,0.5,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Greenland,,True,13.3,86.7,86.6,78.1,3.9,0.0,99.9,0.1,0.0,0.0,0.0,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Grenada,,False,0.0,100.0,100.0,76.3,0.0,0.0,0.0,100.0,100.0,39.8,0.0,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Guadeloupe,,True,0.0,100.0,100.0,99.7,60.2,1.7,0.0,100.0,100.0,87.5,11.3,0.1,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Guam,,True,0.0,100.0,100.0,100.0,82.9,0.0,0.0,100.0,100.0,95.8,27.4,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Guatemala,,False,2.2,97.8,84.8,46.3,20.2,0.5,25.4,74.6,38.9,7.2,0.6,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Guernsey,,True,0.0,100.0,100.0,91.1,0.0,0.0,0.0,100.0,100.0,68.7,0.0,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Guinea,,False,75.8,24.2,15.3,9.6,0.0,0.0,95.1,4.9,0.8,0.2,0.0,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Guinea-Bissau,,False,68.7,31.3,28.5,23.3,0.0,0.0,97.5,2.5,0.6,0.1,0.0,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Guyana,,False,26.3,73.7,55.5,43.5,5.8,0.0,94.3,5.7,1.2,0.2,0.0,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Haiti,,False,28.1,71.9,41.1,30.7,19.2,0.0,43.5,56.5,12.6,2.5,0.3,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Honduras,,False,2.1,97.9,78.5,51.2,33.2,2.2,28.9,71.1,34.2,6.0,0.5,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Hungary,,False,0.0,100.0,100.0,86.0,38.5,9.8,0.0,100.0,100.0,41.1,2.1,0.2,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Iceland,,False,0.7,99.3,95.0,91.6,73.8,38.7,36.0,64.0,24.4,7.6,0.6,0.1,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+India,https://flagcdn.com/w80/in.png,False,0.2,99.8,93.9,58.5,19.5,5.9,6.8,93.2,72.5,24.7,1.5,0.1,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Indonesia,,False,7.0,93.0,83.2,64.5,24.8,6.3,60.9,39.1,17.7,6.4,0.6,0.1,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Iran,,False,0.2,99.8,97.9,88.5,64.0,17.1,17.0,83.0,55.5,18.1,2.6,0.3,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Iraq,,False,0.1,99.9,99.1,95.6,76.2,49.4,28.7,71.3,53.7,33.2,9.0,2.5,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Ireland,,False,0.0,100.0,99.6,83.9,45.2,18.5,0.0,100.0,94.6,39.4,2.0,0.3,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Isle of Man,,True,0.0,100.0,99.8,77.4,42.7,0.0,0.0,100.0,97.8,31.5,2.8,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Israel,,False,0.0,100.0,100.0,99.9,97.6,61.0,0.0,100.0,98.2,76.3,41.9,8.1,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Italy,,False,0.0,100.0,100.0,99.6,76.9,26.7,0.0,100.0,100.0,90.3,19.7,1.3,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Jamaica,,False,0.0,100.0,100.0,86.0,47.2,4.1,0.0,100.0,100.0,41.7,2.9,0.1,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Japan,,False,0.0,100.0,99.9,96.7,70.4,29.9,0.1,99.9,91.1,39.2,7.1,1.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Jersey,,True,0.0,100.0,100.0,98.9,35.8,0.0,0.0,100.0,100.0,91.5,6.5,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Jordan,,False,0.1,99.9,99.7,98.8,80.5,24.7,13.6,86.4,52.0,22.2,4.2,0.2,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Kazakhstan,,False,7.7,92.3,80.5,66.0,45.0,12.3,60.9,39.1,11.3,2.9,0.5,0.1,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Kenya,,False,34.9,65.1,31.6,18.3,9.1,0.0,85.2,14.8,3.3,0.7,0.1,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Kuwait,,False,0.0,100.0,100.0,100.0,100.0,98.1,0.0,100.0,100.0,92.0,50.9,11.5,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Kyrgyzstan,,False,1.8,98.2,88.8,60.5,18.6,0.0,35.9,64.1,19.3,3.6,0.1,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Laos,,False,41.0,59.0,35.7,20.1,8.3,0.0,73.7,26.3,5.0,1.0,0.1,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Latvia,,False,0.0,100.0,89.2,71.9,46.8,21.2,0.0,100.0,48.3,9.2,1.0,0.1,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Lebanon,,False,0.0,100.0,100.0,99.6,63.0,28.4,0.0,100.0,100.0,88.5,18.3,1.7,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Lesotho,,False,18.1,81.9,45.9,21.8,0.0,0.0,45.2,54.8,9.2,1.0,0.0,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Liberia,,False,73.6,26.4,15.7,9.2,0.0,0.0,95.1,4.9,0.9,0.1,0.0,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Libya,,False,0.9,99.1,98.7,97.3,84.7,52.7,71.1,28.9,12.4,4.1,0.7,0.1,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Liechtenstein,,False,0.0,100.0,100.0,100.0,0.0,0.0,0.0,100.0,100.0,93.7,0.0,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Lithuania,,False,0.0,100.0,93.0,66.7,41.9,7.8,0.0,100.0,72.0,11.7,1.0,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Luxembourg,,False,0.0,100.0,100.0,100.0,60.1,6.9,0.0,100.0,100.0,100.0,18.9,0.2,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Macedonia,,False,0.0,100.0,100.0,84.2,42.4,10.8,0.0,100.0,100.0,23.4,1.4,0.1,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Madagascar,,False,76.7,23.3,15.3,9.6,0.0,0.0,97.4,2.6,0.5,0.1,0.0,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Malawi,,False,29.7,70.3,27.9,13.4,0.7,0.0,62.3,37.7,6.5,1.1,0.0,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Malaysia,,False,1.7,98.3,94.2,88.9,67.9,34.6,32.3,67.7,40.7,19.8,3.7,0.6,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Mali,,False,64.6,35.4,27.9,24.1,12.6,0.0,97.0,3.0,0.6,0.1,0.0,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Malta,,False,0.0,100.0,100.0,100.0,99.8,41.5,0.0,100.0,100.0,100.0,88.5,16.7,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Martinique,,True,0.0,100.0,100.0,100.0,65.5,7.2,0.0,100.0,100.0,98.8,25.2,0.3,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Mauritania,,False,61.1,38.9,32.7,28.2,21.4,0.0,98.6,1.4,0.3,0.1,0.0,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Mauritius,,False,0.0,100.0,100.0,95.1,29.9,0.0,0.0,100.0,100.0,70.9,4.3,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Mayotte,,True,0.0,100.0,100.0,69.5,0.0,0.0,0.0,100.0,100.0,37.6,0.0,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Mexico,,False,0.5,99.5,95.8,83.3,58.3,22.8,20.8,79.2,37.9,11.6,1.7,0.2,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Midway Islands,,True,100.0,0.0,0.0,0.0,0.0,0.0,100.0,0.0,0.0,0.0,0.0,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Moldova,,False,0.0,100.0,89.9,43.8,18.6,0.0,0.0,100.0,68.7,8.2,0.5,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Mongolia,,False,31.4,68.6,63.2,51.6,36.7,0.0,95.6,4.4,0.8,0.1,0.0,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Montenegro,,False,0.0,100.0,97.2,80.6,44.7,11.7,0.0,100.0,81.0,24.9,1.5,0.1,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Montserrat,,True,0.0,100.0,97.8,0.0,0.0,0.0,0.0,100.0,17.9,0.0,0.0,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Morocco,,False,0.9,99.1,91.0,67.5,49.3,29.3,26.6,73.4,39.8,11.3,1.4,0.2,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Mozambique,,False,55.8,44.2,28.3,20.3,11.9,2.9,87.2,12.8,2.9,0.6,0.1,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Myanmar,,False,26.2,73.8,39.9,21.5,9.5,0.6,70.3,29.7,5.6,1.0,0.1,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Namibia,,False,31.3,68.7,50.1,37.1,17.4,0.0,92.3,7.7,1.5,0.2,0.0,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Nauru,,False,0.0,100.0,100.0,100.0,0.0,0.0,0.0,100.0,100.0,100.0,0.0,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Nepal,,False,21.9,78.1,45.7,18.1,0.0,0.0,60.5,39.5,10.2,1.2,0.0,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Netherlands,,False,0.0,100.0,100.0,100.0,81.2,26.2,0.0,100.0,100.0,99.4,42.5,7.2,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Netherlands Antilles,,True,0.0,100.0,100.0,99.2,93.5,0.7,0.0,100.0,100.0,79.6,30.0,1.7,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+New Caledonia,,True,7.6,92.4,79.2,67.2,48.4,0.0,38.9,61.1,16.3,3.9,0.6,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+New Zealand,,False,2.8,97.2,91.4,83.4,56.4,4.8,53.1,46.9,15.1,3.5,0.5,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Nicaragua,,False,16.9,83.1,65.5,50.7,24.3,0.0,64.7,35.3,11.8,2.5,0.2,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Niger,,False,73.2,26.8,18.7,14.6,6.5,0.0,97.3,2.7,0.6,0.1,0.0,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Nigeria,,False,25.4,74.6,52.6,35.6,13.8,0.5,59.7,40.3,15.8,7.0,1.4,0.2,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Niue,,True,97.3,2.7,0.0,0.0,0.0,0.0,99.5,0.5,0.0,0.0,0.0,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Norfolk Island,,True,100.0,0.0,0.0,0.0,0.0,0.0,100.0,0.0,0.0,0.0,0.0,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+North Korea,,False,27.3,72.7,42.4,15.4,1.1,0.0,61.9,38.1,10.0,1.8,0.0,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Northern Mariana Islands,,True,0.0,100.0,100.0,100.0,0.0,0.0,0.0,100.0,100.0,100.0,0.0,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Norway,,False,0.0,100.0,99.7,95.5,69.1,28.7,1.4,98.6,66.1,22.1,1.8,0.2,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Oman,,False,0.1,99.9,98.9,96.1,80.5,34.1,15.1,84.9,54.3,23.2,3.2,0.5,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Pakistan,,False,3.4,96.6,89.8,58.6,19.7,6.6,45.9,54.1,32.2,9.4,0.5,0.1,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Panama,,False,6.3,93.7,86.0,73.0,54.1,17.2,42.5,57.5,27.0,7.4,1.2,0.1,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Papua New Guinea,,False,68.3,31.7,18.8,10.9,5.3,0.1,89.4,10.6,2.5,0.6,0.1,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Paraguay,,False,1.6,98.4,86.4,70.9,55.0,34.7,57.2,42.8,18.2,3.9,0.6,0.1,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Peru,,False,8.7,91.3,73.2,63.4,48.3,16.4,62.4,37.6,8.7,1.7,0.2,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Philippines,,False,8.7,91.3,67.2,47.6,26.5,7.2,35.6,64.4,20.9,6.1,0.7,0.1,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Poland,,False,0.0,100.0,100.0,93.9,50.1,13.9,0.0,100.0,99.7,67.5,4.5,0.3,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Portugal,,False,0.0,100.0,100.0,98.3,76.7,35.4,0.0,100.0,100.0,71.2,12.8,1.3,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Puerto Rico,,True,0.0,100.0,100.0,100.0,71.0,25.5,0.0,100.0,100.0,99.9,28.6,3.4,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Qatar,,False,0.0,100.0,100.0,100.0,99.8,96.7,0.0,100.0,100.0,97.0,54.6,16.3,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Reunion,,True,0.0,100.0,100.0,95.2,43.8,0.0,0.0,100.0,99.7,51.0,3.7,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Romania,,False,0.0,100.0,99.3,65.7,32.3,10.5,0.0,100.0,92.5,24.3,1.3,0.1,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Russia,https://flagcdn.com/w80/ru.png,False,1.7,98.3,92.7,80.9,61.8,32.0,66.5,33.5,16.0,4.9,0.6,0.1,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Rwanda,,False,9.9,90.1,28.0,10.2,0.5,0.0,25.0,75.0,13.4,1.9,0.0,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Samoa,,False,31.7,68.3,62.1,35.6,0.0,0.0,79.6,20.4,4.3,0.8,0.0,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+San Marino,,False,0.0,100.0,100.0,100.0,100.0,0.0,0.0,100.0,100.0,100.0,100.0,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Sao Tome and Principe,,False,5.6,94.4,80.5,41.0,0.0,0.0,25.5,74.5,26.1,5.2,0.0,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Saudi Arabia,,False,0.0,100.0,99.8,99.1,95.9,83.0,28.3,71.7,43.0,17.3,3.3,0.6,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Senegal,,False,33.5,66.5,45.5,34.0,15.5,0.0,81.9,18.1,4.3,0.9,0.1,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Serbia,,False,0.0,100.0,100.0,92.4,39.4,13.6,0.0,100.0,100.0,57.9,3.1,0.2,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Seychelles,,False,0.0,100.0,100.0,76.5,4.6,0.0,0.0,100.0,99.6,55.6,0.4,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Sierra Leone,,False,72.5,27.5,19.3,10.1,0.0,0.0,91.1,8.9,1.3,0.1,0.0,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Singapore,,False,0.0,100.0,100.0,100.0,100.0,100.0,0.0,100.0,100.0,100.0,100.0,100.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Slovakia,,False,0.0,100.0,99.8,82.3,23.8,4.8,0.0,100.0,98.6,46.8,1.8,0.2,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Slovenia,,False,0.0,100.0,100.0,95.9,27.0,0.4,0.0,100.0,100.0,68.4,1.9,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Solomon Islands,,False,61.6,38.4,33.7,30.6,0.0,0.0,94.3,5.7,1.2,0.2,0.0,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Somalia,,False,74.4,25.6,21.7,13.3,0.0,0.0,98.8,1.2,0.2,0.0,0.0,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+South Africa,,False,2.2,97.8,83.7,66.8,46.1,10.9,37.7,62.3,27.4,7.5,1.1,0.1,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+South Korea,,False,0.0,100.0,100.0,99.8,91.0,66.4,0.0,100.0,100.0,89.4,19.1,3.5,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Spain,,False,0.0,100.0,100.0,96.1,75.2,41.5,0.0,100.0,98.6,46.5,6.7,0.9,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Sri Lanka,,False,0.7,99.3,76.4,29.8,2.5,0.0,11.4,88.6,33.9,5.4,0.2,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+St. Helena,,True,16.1,83.9,0.0,0.0,0.0,0.0,51.4,48.6,0.9,0.0,0.0,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+St. Kitts and Nevis,,False,0.0,100.0,100.0,99.5,59.7,0.0,0.0,100.0,100.0,56.9,5.0,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+St. Lucia,,False,0.0,100.0,100.0,96.7,44.2,0.0,0.0,100.0,100.0,63.1,1.8,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+St. Pierre and Miquelon,,True,3.7,96.3,48.1,48.1,0.0,0.0,26.2,73.8,4.3,0.4,0.0,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Sudan,,False,59.3,40.7,29.6,22.5,11.6,1.9,93.9,6.1,1.6,0.4,0.1,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Suriname,,False,10.8,89.2,85.4,77.6,51.5,7.1,87.0,13.0,3.7,1.1,0.1,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Swaziland,,False,0.0,100.0,76.3,33.0,9.8,0.0,0.0,100.0,64.5,8.3,0.3,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Sweden,,False,0.0,100.0,99.9,96.7,62.0,25.7,5.6,94.4,60.3,21.4,1.6,0.2,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Switzerland,,False,0.0,100.0,100.0,96.9,34.0,0.0,0.0,100.0,100.0,57.9,2.6,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Syria,,False,0.4,99.6,91.2,68.5,21.5,1.3,23.3,76.7,38.2,12.4,0.4,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Tajikistan,,False,3.8,96.2,87.8,55.9,14.1,0.0,57.5,42.5,19.4,3.1,0.1,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Tanzania,,False,62.7,37.3,23.0,15.4,8.8,0.0,92.5,7.5,1.3,0.2,0.0,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Thailand,,False,0.2,99.8,92.5,61.5,32.3,16.3,4.4,95.6,64.2,18.0,2.4,0.3,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+The Gambia,,False,36.1,63.9,52.8,43.6,0.0,0.0,77.2,22.8,6.7,2.6,0.0,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Timor-Leste,,False,30.7,69.3,30.8,15.2,4.4,0.0,57.3,42.7,6.7,1.0,0.1,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Togo,,False,35.8,64.2,48.0,30.8,22.7,0.0,76.7,23.3,6.2,1.4,0.3,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Tokelau,,True,100.0,0.0,0.0,0.0,0.0,0.0,100.0,0.0,0.0,0.0,0.0,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Tonga,,False,0.0,100.0,98.4,66.5,0.0,0.0,0.0,100.0,79.9,13.0,0.0,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Trinidad and Tobago,,False,0.0,100.0,100.0,100.0,94.3,50.2,0.0,100.0,100.0,96.6,43.5,5.2,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Tunisia,,False,0.0,100.0,99.4,80.4,48.5,16.5,9.8,90.2,61.6,17.2,1.8,0.2,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Turkey,,False,0.0,100.0,97.8,77.7,49.9,24.3,0.0,100.0,87.4,25.7,2.2,0.3,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Turkmenistan,,False,1.3,98.7,95.9,87.5,47.3,19.5,46.0,54.0,25.0,8.5,1.3,0.2,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Uganda,,False,60.6,39.4,17.7,9.8,4.1,0.0,83.3,16.7,3.2,0.7,0.0,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Ukraine,,False,0.1,99.9,91.3,65.0,29.9,2.9,0.4,99.6,62.8,11.1,0.9,0.1,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+United Arab Emirates,,False,0.0,100.0,100.0,100.0,99.3,92.7,0.0,100.0,92.3,60.9,23.4,5.7,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+United Kingdom,,False,0.0,100.0,99.9,98.2,77.0,26.0,3.6,96.4,86.4,60.8,13.5,1.4,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+United States,https://flagcdn.com/w80/us.png,False,0.0,100.0,99.7,97.2,77.6,36.9,30.4,69.6,46.9,23.2,3.6,0.6,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Uruguay,https://flagcdn.com/w80/uy.png,False,1.3,98.7,94.6,89.1,75.3,34.8,19.8,80.2,27.9,6.7,0.9,0.1,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Uzbekistan,,False,0.9,99.1,96.5,81.0,19.7,2.7,56.0,44.0,25.9,10.7,0.6,0.1,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Vanuatu,,False,41.1,58.9,40.3,14.0,0.0,0.0,69.0,31.0,11.5,7.9,1.4,0.2,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Venezuela,,False,1.2,98.8,96.7,91.2,73.0,33.7,52.5,47.5,30.7,14.0,3.3,0.8,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Vietnam,,False,3.2,96.8,85.6,60.6,25.2,8.2,21.3,78.7,42.5,17.5,3.0,0.7,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Virgin Islands,,True,0.0,100.0,100.0,99.9,75.9,0.0,0.0,100.0,100.0,99.1,37.2,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Wallis and Futuna,,True,100.0,0.0,0.0,0.0,0.0,0.0,100.0,0.0,0.0,0.0,0.0,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+West Bank,,True,0.0,100.0,100.0,100.0,94.6,42.4,0.0,100.0,100.0,100.0,61.1,4.1,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Western Sahara,,True,4.1,95.9,95.6,95.5,90.6,5.9,93.7,6.3,1.5,0.4,0.1,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Yemen,,False,2.7,97.3,52.5,27.9,14.4,1.4,45.5,54.5,18.9,4.9,0.5,0.1,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Zambia,,False,43.8,56.2,42.2,35.1,16.1,0.0,85.9,14.1,3.7,0.8,0.1,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+Zimbabwe,,False,45.6,54.4,37.5,28.4,2.5,0.0,77.2,22.8,4.3,0.7,0.0,0.0,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+European Union,https://flagcdn.com/w80/eu.png,False,0.0,100.0,99.8,94.0,59.5,20.5,1.3,98.7,88.4,48.7,6.0,0.6,https://www.science.org/doi/10.1126/sciadv.1600377#T2
+World,https://img.icons8.com/?size=100&id=t0pRVC1Kipju&format=png&color=000000,False,8.0,92.0,83.2,63.7,35.9,13.9,60.3,39.7,22.5,8.6,1.2,0.2,https://www.science.org/doi/10.1126/sciadv.1600377#T2

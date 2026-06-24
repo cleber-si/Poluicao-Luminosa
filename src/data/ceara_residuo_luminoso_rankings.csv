@@ -1,0 +1,121 @@
+ranking,posicao,code_muni,municipio,valor,unidade_ou_indicador,classe_residuo_luminoso,perfil_luminoso
+maiores_residuos_luminosos,1,2304285,Eusébio,1.0176006970447564,residuo_luminoso_log,muito mais luminoso que o esperado,brilho excedente espalhado
+maiores_residuos_luminosos,2,2307650,Maracanaú,0.8546027143440007,residuo_luminoso_log,muito mais luminoso que o esperado,brilho excedente espalhado
+maiores_residuos_luminosos,3,2304400,Fortaleza,0.8335203384282615,residuo_luminoso_log,muito mais luminoso que o esperado,brilho excedente espalhado
+maiores_residuos_luminosos,4,2301000,Aquiraz,0.614346637226912,residuo_luminoso_log,muito mais luminoso que o esperado,brilho excedente espalhado
+maiores_residuos_luminosos,5,2312403,São Gonçalo Do Amarante,0.5042849728689351,residuo_luminoso_log,muito mais luminoso que o esperado,brilho excedente espalhado
+maiores_residuos_luminosos,6,2307304,Juazeiro Do Norte,0.43920008951106304,residuo_luminoso_log,muito mais luminoso que o esperado,brilho excedente espalhado
+maiores_residuos_luminosos,7,2300408,Aiuaba,0.42194410859228737,residuo_luminoso_log,muito mais luminoso que o esperado,brilho excedente pontual
+maiores_residuos_luminosos,8,2301505,Arneiroz,0.35345488897835203,residuo_luminoso_log,muito mais luminoso que o esperado,perfil intermediário
+maiores_residuos_luminosos,9,2300705,Alto Santo,0.352890885022,residuo_luminoso_log,muito mais luminoso que o esperado,brilho excedente pontual
+maiores_residuos_luminosos,10,2305605,Independência,0.33433286449974087,residuo_luminoso_log,muito mais luminoso que o esperado,brilho excedente pontual
+maiores_residuos_luminosos,11,2306702,Jaguaretama,0.27427301937400583,residuo_luminoso_log,muito mais luminoso que o esperado,brilho excedente pontual
+maiores_residuos_luminosos,12,2312502,São João Do Jaguaribe,0.26235346151901395,residuo_luminoso_log,muito mais luminoso que o esperado,brilho excedente espalhado
+maiores_residuos_luminosos,13,2312205,Santa Quitéria,0.2604009117779163,residuo_luminoso_log,muito mais luminoso que o esperado,brilho excedente pontual
+maiores_residuos_luminosos,14,2307205,Jati,0.24327190411677846,residuo_luminoso_log,muito mais luminoso que o esperado,brilho excedente espalhado
+maiores_residuos_luminosos,15,2309706,Pacatuba,0.24221256116213308,residuo_luminoso_log,muito mais luminoso que o esperado,brilho excedente espalhado
+maiores_residuos_luminosos,16,2311009,Poranga,0.2381893865704086,residuo_luminoso_log,muito mais luminoso que o esperado,brilho excedente pontual
+maiores_residuos_luminosos,17,2313005,Solonópole,0.23790434531875923,residuo_luminoso_log,muito mais luminoso que o esperado,brilho excedente pontual
+maiores_residuos_luminosos,18,2311231,Potiretama,0.21850955586314602,residuo_luminoso_log,muito mais luminoso que o esperado,brilho excedente pontual
+maiores_residuos_luminosos,19,2311900,Saboeiro,0.21593808313388554,residuo_luminoso_log,muito mais luminoso que o esperado,brilho excedente pontual
+maiores_residuos_luminosos,20,2303006,Caridade,0.2031501262325084,residuo_luminoso_log,muito mais luminoso que o esperado,perfil intermediário
+menores_residuos_luminosos,1,2313807,Uruburetama,-0.672383828161544,residuo_luminoso_log,muito menos luminoso que o esperado,"denso, mas menos luminoso que o esperado"
+menores_residuos_luminosos,2,2310100,Palmácia,-0.40566381631428405,residuo_luminoso_log,muito menos luminoso que o esperado,"denso, mas menos luminoso que o esperado"
+menores_residuos_luminosos,3,2309805,Pacoti,-0.3759930895259166,residuo_luminoso_log,muito menos luminoso que o esperado,"denso, mas menos luminoso que o esperado"
+menores_residuos_luminosos,4,2302107,Baturité,-0.374421486176455,residuo_luminoso_log,muito menos luminoso que o esperado,"denso, mas menos luminoso que o esperado"
+menores_residuos_luminosos,5,2311108,Porteiras,-0.35472726101986735,residuo_luminoso_log,muito menos luminoso que o esperado,"denso, mas menos luminoso que o esperado"
+menores_residuos_luminosos,6,2309102,Mulungu,-0.3371617308387346,residuo_luminoso_log,muito menos luminoso que o esperado,"denso, mas menos luminoso que o esperado"
+menores_residuos_luminosos,7,2306306,Itapajé,-0.3198293647234446,residuo_luminoso_log,muito menos luminoso que o esperado,"denso, mas menos luminoso que o esperado"
+menores_residuos_luminosos,8,2303907,Chaval,-0.3159254531160509,residuo_luminoso_log,muito menos luminoso que o esperado,"denso, mas menos luminoso que o esperado"
+menores_residuos_luminosos,9,2312304,São Benedito,-0.3030129750962186,residuo_luminoso_log,muito menos luminoso que o esperado,"denso, mas menos luminoso que o esperado"
+menores_residuos_luminosos,10,2301406,Aratuba,-0.28991533234363454,residuo_luminoso_log,muito menos luminoso que o esperado,"denso, mas menos luminoso que o esperado"
+menores_residuos_luminosos,11,2307700,Maranguape,-0.2793202961518554,residuo_luminoso_log,muito menos luminoso que o esperado,"denso, mas menos luminoso que o esperado"
+menores_residuos_luminosos,12,2311603,Redenção,-0.2744930480942054,residuo_luminoso_log,muito menos luminoso que o esperado,"denso, mas menos luminoso que o esperado"
+menores_residuos_luminosos,13,2305001,Guaraciaba Do Norte,-0.25888062559543984,residuo_luminoso_log,muito menos luminoso que o esperado,"denso, mas menos luminoso que o esperado"
+menores_residuos_luminosos,14,2313559,Tururu,-0.25835379915609324,residuo_luminoso_log,muito menos luminoso que o esperado,"denso, mas menos luminoso que o esperado"
+menores_residuos_luminosos,15,2305308,Ibiapina,-0.22854699958089325,residuo_luminoso_log,muito menos luminoso que o esperado,"denso, mas menos luminoso que o esperado"
+menores_residuos_luminosos,16,2308005,Massapê,-0.2281807910563476,residuo_luminoso_log,muito menos luminoso que o esperado,"denso, mas menos luminoso que o esperado"
+menores_residuos_luminosos,17,2310258,Paraipaba,-0.22464444838003483,residuo_luminoso_log,muito menos luminoso que o esperado,"denso, mas menos luminoso que o esperado"
+menores_residuos_luminosos,18,2302602,Camocim,-0.21365266032350028,residuo_luminoso_log,muito menos luminoso que o esperado,"denso, mas menos luminoso que o esperado"
+menores_residuos_luminosos,19,2311702,Reriutaba,-0.2071911372405078,residuo_luminoso_log,muito menos luminoso que o esperado,"denso, mas menos luminoso que o esperado"
+menores_residuos_luminosos,20,2312601,São Luís Do Curu,-0.20369409441428088,residuo_luminoso_log,muito menos luminoso que o esperado,"denso, mas menos luminoso que o esperado"
+maior_radiancia_total,1,2304400,Fortaleza,48113.234375,sum_radiance,muito mais luminoso que o esperado,brilho excedente espalhado
+maior_radiancia_total,2,2303709,Caucaia,15371.0439453125,sum_radiance,mais luminoso que o esperado,contribuinte relevante no total estadual
+maior_radiancia_total,3,2312908,Sobral,11568.740234375,sum_radiance,próximo ao padrão esperado,contribuinte relevante no total estadual
+maior_radiancia_total,4,2307304,Juazeiro Do Norte,10334.119140625,sum_radiance,muito mais luminoso que o esperado,brilho excedente espalhado
+maior_radiancia_total,5,2307650,Maracanaú,9203.0,sum_radiance,muito mais luminoso que o esperado,brilho excedente espalhado
+maior_radiancia_total,6,2301000,Aquiraz,8721.9990234375,sum_radiance,muito mais luminoso que o esperado,brilho excedente espalhado
+maior_radiancia_total,7,2312403,São Gonçalo Do Amarante,7484.833984375,sum_radiance,muito mais luminoso que o esperado,brilho excedente espalhado
+maior_radiancia_total,8,2306405,Itapipoca,5974.66552734375,sum_radiance,menos luminoso que o esperado,contribuinte relevante no total estadual
+maior_radiancia_total,9,2301109,Aracati,5667.865234375,sum_radiance,mais luminoso que o esperado,contribuinte relevante no total estadual
+maior_radiancia_total,10,2304285,Eusébio,5376.83447265625,sum_radiance,muito mais luminoso que o esperado,brilho excedente espalhado
+maior_radiancia_total,11,2304202,Crato,4981.62255859375,sum_radiance,muito menos luminoso que o esperado,"denso, mas menos luminoso que o esperado"
+maior_radiancia_total,12,2311801,Russas,4882.1884765625,sum_radiance,próximo ao padrão esperado,contribuinte relevante no total estadual
+maior_radiancia_total,13,2302800,Canindé,4539.9306640625,sum_radiance,mais luminoso que o esperado,contribuinte relevante no total estadual
+maior_radiancia_total,14,2303501,Cascavel,4492.9130859375,sum_radiance,próximo ao padrão esperado,contribuinte relevante no total estadual
+maior_radiancia_total,15,2302206,Beberibe,4180.30078125,sum_radiance,mais luminoso que o esperado,contribuinte relevante no total estadual
+maior_radiancia_total,16,2307601,Limoeiro Do Norte,4165.92236328125,sum_radiance,mais luminoso que o esperado,contribuinte relevante no total estadual
+maior_radiancia_total,17,2311405,Quixeramobim,3887.82763671875,sum_radiance,próximo ao padrão esperado,contribuinte relevante no total estadual
+maior_radiancia_total,18,2305506,Iguatu,3764.1904296875,sum_radiance,muito menos luminoso que o esperado,"denso, mas menos luminoso que o esperado"
+maior_radiancia_total,19,2311306,Quixadá,3685.20361328125,sum_radiance,menos luminoso que o esperado,contribuinte relevante no total estadual
+maior_radiancia_total,20,2301901,Barbalha,3543.003662109375,sum_radiance,próximo ao padrão esperado,contribuinte relevante no total estadual
+maior_radiancia_media,1,2304400,Fortaleza,38.12459142234548,mean_radiance,muito mais luminoso que o esperado,brilho excedente espalhado
+maior_radiancia_media,2,2307650,Maracanaú,21.654117647058825,mean_radiance,muito mais luminoso que o esperado,brilho excedente espalhado
+maior_radiancia_media,3,2304285,Eusébio,17.015298964102058,mean_radiance,muito mais luminoso que o esperado,brilho excedente espalhado
+maior_radiancia_media,4,2307304,Juazeiro Do Norte,9.870218854465138,mean_radiance,muito mais luminoso que o esperado,brilho excedente espalhado
+maior_radiancia_media,5,2309706,Pacatuba,5.8128517967308575,mean_radiance,muito mais luminoso que o esperado,brilho excedente espalhado
+maior_radiancia_media,6,2301000,Aquiraz,4.498194442206034,mean_radiance,muito mais luminoso que o esperado,brilho excedente espalhado
+maior_radiancia_media,7,2305233,Horizonte,4.461603816105769,mean_radiance,mais luminoso que o esperado,contribuinte relevante no total estadual
+maior_radiancia_media,8,2306256,Itaitinga,4.339337720239297,mean_radiance,muito mais luminoso que o esperado,brilho excedente espalhado
+maior_radiancia_media,9,2303709,Caucaia,3.1134381092389103,mean_radiance,mais luminoso que o esperado,contribuinte relevante no total estadual
+maior_radiancia_media,10,2310852,Pindoretama,3.014506909671246,mean_radiance,próximo ao padrão esperado,perfil intermediário
+maior_radiancia_media,11,2309607,Pacajus,2.328616187686012,mean_radiance,menos luminoso que o esperado,contribuinte relevante no total estadual
+maior_radiancia_media,12,2312403,São Gonçalo Do Amarante,2.2001275674235745,mean_radiance,muito mais luminoso que o esperado,brilho excedente espalhado
+maior_radiancia_media,13,2304251,Cruz,1.4776884902863814,mean_radiance,mais luminoso que o esperado,contribuinte relevante no total estadual
+maior_radiancia_media,14,2307254,Jijoca De Jericoacoara,1.473661150251116,mean_radiance,próximo ao padrão esperado,perfil intermediário
+maior_radiancia_media,15,2301901,Barbalha,1.44494439727136,mean_radiance,próximo ao padrão esperado,contribuinte relevante no total estadual
+maior_radiancia_media,16,2307601,Limoeiro Do Norte,1.3881780617398367,mean_radiance,mais luminoso que o esperado,contribuinte relevante no total estadual
+maior_radiancia_media,17,2312908,Sobral,1.3861418924484783,mean_radiance,próximo ao padrão esperado,contribuinte relevante no total estadual
+maior_radiancia_media,18,2303501,Cascavel,1.3296576164360758,mean_radiance,próximo ao padrão esperado,contribuinte relevante no total estadual
+maior_radiancia_media,19,2307700,Maranguape,1.3272084346433886,mean_radiance,muito menos luminoso que o esperado,"denso, mas menos luminoso que o esperado"
+maior_radiancia_media,20,2309003,Mucambo,1.2676582093451434,mean_radiance,mais luminoso que o esperado,perfil intermediário
+maior_area_acima_1,1,2304285,Eusébio,100.0,percent_area_above_1,muito mais luminoso que o esperado,brilho excedente espalhado
+maior_area_acima_1,2,2304400,Fortaleza,99.84177215189874,percent_area_above_1,muito mais luminoso que o esperado,brilho excedente espalhado
+maior_area_acima_1,3,2307650,Maracanaú,98.82352941176472,percent_area_above_1,muito mais luminoso que o esperado,brilho excedente espalhado
+maior_area_acima_1,4,2310852,Pindoretama,98.65771812080536,percent_area_above_1,próximo ao padrão esperado,perfil intermediário
+maior_area_acima_1,5,2301000,Aquiraz,88.91181021144921,percent_area_above_1,muito mais luminoso que o esperado,brilho excedente espalhado
+maior_area_acima_1,6,2309706,Pacatuba,88.56088560885608,percent_area_above_1,muito mais luminoso que o esperado,brilho excedente espalhado
+maior_area_acima_1,7,2305233,Horizonte,88.3076923076923,percent_area_above_1,mais luminoso que o esperado,contribuinte relevante no total estadual
+maior_area_acima_1,8,2307304,Juazeiro Do Norte,77.5549188156638,percent_area_above_1,muito mais luminoso que o esperado,brilho excedente espalhado
+maior_area_acima_1,9,2306256,Itaitinga,57.83521809369952,percent_area_above_1,muito mais luminoso que o esperado,brilho excedente espalhado
+maior_area_acima_1,10,2309607,Pacajus,53.47222222222222,percent_area_above_1,menos luminoso que o esperado,contribuinte relevante no total estadual
+maior_area_acima_1,11,2303709,Caucaia,49.03787725339275,percent_area_above_1,mais luminoso que o esperado,contribuinte relevante no total estadual
+maior_area_acima_1,12,2304251,Cruz,42.40412979351032,percent_area_above_1,mais luminoso que o esperado,contribuinte relevante no total estadual
+maior_area_acima_1,13,2308203,Meruoca,42.33937397034597,percent_area_above_1,menos luminoso que o esperado,perfil intermediário
+maior_area_acima_1,14,2300150,Acarape,40.57142857142857,percent_area_above_1,menos luminoso que o esperado,perfil intermediário
+maior_area_acima_1,15,2307700,Maranguape,38.52040816326531,percent_area_above_1,muito menos luminoso que o esperado,"denso, mas menos luminoso que o esperado"
+maior_area_acima_1,16,2310209,Paracuru,38.12244897959184,percent_area_above_1,menos luminoso que o esperado,perfil intermediário
+maior_area_acima_1,17,2303501,Cascavel,36.40130216040249,percent_area_above_1,próximo ao padrão esperado,contribuinte relevante no total estadual
+maior_area_acima_1,18,2304954,Guaiúba,34.593023255813954,percent_area_above_1,muito menos luminoso que o esperado,"denso, mas menos luminoso que o esperado"
+maior_area_acima_1,19,2307254,Jijoca De Jericoacoara,34.48275862068966,percent_area_above_1,próximo ao padrão esperado,perfil intermediário
+maior_area_acima_1,20,2312403,São Gonçalo Do Amarante,34.19506462984724,percent_area_above_1,muito mais luminoso que o esperado,brilho excedente espalhado
+maior_hotspot_index,1,2313302,Tauá,408.5131060588646,hotspot_index_max_over_mean,mais luminoso que o esperado,contribuinte relevante no total estadual
+maior_hotspot_index,2,2312205,Santa Quitéria,332.8817290175703,hotspot_index_max_over_mean,muito mais luminoso que o esperado,brilho excedente pontual
+maior_hotspot_index,3,2305605,Independência,311.9557085866798,hotspot_index_max_over_mean,muito mais luminoso que o esperado,brilho excedente pontual
+maior_hotspot_index,4,2310308,Parambu,259.70848631962116,hotspot_index_max_over_mean,mais luminoso que o esperado,perfil intermediário
+maior_hotspot_index,5,2304707,Granja,228.2473573085071,hotspot_index_max_over_mean,próximo ao padrão esperado,contribuinte relevante no total estadual
+maior_hotspot_index,6,2306702,Jaguaretama,220.1499373830288,hotspot_index_max_over_mean,muito mais luminoso que o esperado,brilho excedente pontual
+maior_hotspot_index,7,2313203,Tamboril,214.61289221179402,hotspot_index_max_over_mean,muito mais luminoso que o esperado,brilho excedente pontual
+maior_hotspot_index,8,2300408,Aiuaba,212.13963168382534,hotspot_index_max_over_mean,muito mais luminoso que o esperado,brilho excedente pontual
+maior_hotspot_index,9,2300309,Acopiara,190.2175804981357,hotspot_index_max_over_mean,próximo ao padrão esperado,perfil intermediário
+maior_hotspot_index,10,2311405,Quixeramobim,187.50332158236623,hotspot_index_max_over_mean,próximo ao padrão esperado,contribuinte relevante no total estadual
+maior_hotspot_index,11,2304103,Crateús,181.763908227152,hotspot_index_max_over_mean,próximo ao padrão esperado,contribuinte relevante no total estadual
+maior_hotspot_index,12,2306900,Jaguaribe,172.0244403903669,hotspot_index_max_over_mean,mais luminoso que o esperado,contribuinte relevante no total estadual
+maior_hotspot_index,13,2302800,Canindé,162.1026635578662,hotspot_index_max_over_mean,mais luminoso que o esperado,contribuinte relevante no total estadual
+maior_hotspot_index,14,2302404,Boa Viagem,156.78166923821027,hotspot_index_max_over_mean,mais luminoso que o esperado,contribuinte relevante no total estadual
+maior_hotspot_index,15,2301851,Banabuiú,155.65796793101183,hotspot_index_max_over_mean,mais luminoso que o esperado,perfil intermediário
+maior_hotspot_index,16,2309409,Novo Oriente,151.76947200109618,hotspot_index_max_over_mean,menos luminoso que o esperado,perfil intermediário
+maior_hotspot_index,17,2313906,Uruoca,149.87831589419378,hotspot_index_max_over_mean,mais luminoso que o esperado,perfil intermediário
+maior_hotspot_index,18,2311900,Saboeiro,147.60688472474337,hotspot_index_max_over_mean,muito mais luminoso que o esperado,brilho excedente pontual
+maior_hotspot_index,19,2311009,Poranga,146.808556868602,hotspot_index_max_over_mean,muito mais luminoso que o esperado,brilho excedente pontual
+maior_hotspot_index,20,2308708,Morada Nova,146.79620117168756,hotspot_index_max_over_mean,mais luminoso que o esperado,contribuinte relevante no total estadual

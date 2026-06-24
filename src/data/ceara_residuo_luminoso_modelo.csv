@@ -1,0 +1,2 @@
+modelo,intercepto,coef_log1p_densidade,r2,rmse,mae,n_municipios,q15_residuo,q35_residuo,q65_residuo,q85_residuo,observacao
+log1p(radiancia_media) ~ log1p(densidade_demografica_2022),-1.239605680061032,0.4546158654319763,0.819256876131394,0.21065591673845063,0.1515751185988288,184,-0.18850387481383238,-0.08999600218963863,0.05693455867713465,0.14841470014241834,Modelo usa densidade IBGE/Censo 2022 da tabela enviada; população municipal oficial 2024 não foi incorporada nesta execução.

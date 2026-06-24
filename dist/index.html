@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="generator" content="Observable Framework v1.13.4">
+<title>Onde Estão as Noites Escuras no Brasil?</title>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&amp;display=swap" crossorigin>
+<link rel="preload" as="style" href="./_observablehq/theme-midnight.090888f6.css">
+<link rel="preload" as="style" href="./_npm/leaflet@1.9.4/dist/leaflet.css">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&amp;display=swap" crossorigin>
+<link rel="stylesheet" type="text/css" href="./_observablehq/theme-midnight.090888f6.css">
+<link rel="stylesheet" type="text/css" href="./_npm/leaflet@1.9.4/dist/leaflet.css">
+<link rel="modulepreload" href="./_observablehq/client.aa340c2c.js">
+<link rel="modulepreload" href="./_observablehq/runtime.607a8173.js">
+<link rel="modulepreload" href="./_observablehq/stdlib.277aeab8.js">
+<link rel="modulepreload" href="./_import/components/RasterTileMap.f5157737.js">
+<link rel="modulepreload" href="./_import/components/scatter_paises.cea3dd78.js">
+<link rel="modulepreload" href="./_import/components/barras_paises.dfcd2948.js">
+<link rel="modulepreload" href="./_import/components/scatter_estados.a0993239.js">
+<link rel="modulepreload" href="./_import/components/ranking_radiancia_total.ccc2554e.js">
+<link rel="modulepreload" href="./_import/components/ranking_radiancia_media.63acf352.js">
+<link rel="modulepreload" href="./_import/components/radiancia_por_regiao.fbd7de7d.js">
+<link rel="modulepreload" href="./_import/components/ceara_ranking_radiancia_total.f59c2844.js">
+<link rel="modulepreload" href="./_import/components/ceara_mapa_residuo_luminoso.23dad37f.js">
+<link rel="modulepreload" href="./_import/components/ceara_barras_residuo_luminoso.94b98952.js">
+<link rel="modulepreload" href="./_import/components/ceara_residuo_vs_area_iluminada.376dba0a.js">
+<link rel="modulepreload" href="./_import/components/ceara_ranking_ceu_escuro.2f220b32.js">
+<link rel="modulepreload" href="./_npm/leaflet@1.9.4/721623d8.js">
+<link rel="modulepreload" href="./_npm/@observablehq/plot@0.6.17/a96a6bbb.js">
+<link rel="modulepreload" href="./_npm/d3@7.9.0/66d82917.js">
+<link rel="modulepreload" href="./_npm/d3-dsv@3.0.1/9cffc2bd.js">
+<link rel="modulepreload" href="./_npm/isoformat@0.2.1/18cbf477.js">
+<link rel="modulepreload" href="./_npm/interval-tree-1d@1.0.4/53fe8176.js">
+<link rel="modulepreload" href="./_npm/d3-array@3.2.4/e93ca09f.js">
+<link rel="modulepreload" href="./_npm/d3-axis@3.0.0/0f2de24d.js">
+<link rel="modulepreload" href="./_npm/d3-brush@3.0.0/65eb105b.js">
+<link rel="modulepreload" href="./_npm/d3-chord@3.0.1/7ef8fb2e.js">
+<link rel="modulepreload" href="./_npm/d3-color@3.1.0/aeb57b94.js">
+<link rel="modulepreload" href="./_npm/d3-contour@4.0.2/1d2aed74.js">
+<link rel="modulepreload" href="./_npm/d3-delaunay@6.0.4/87adea64.js">
+<link rel="modulepreload" href="./_npm/d3-dispatch@3.0.1/9ba9c7f3.js">
+<link rel="modulepreload" href="./_npm/d3-drag@3.0.0/4202580c.js">
+<link rel="modulepreload" href="./_npm/d3-ease@3.0.1/cdd7e898.js">
+<link rel="modulepreload" href="./_npm/d3-fetch@3.0.1/b4e2ad9a.js">
+<link rel="modulepreload" href="./_npm/d3-force@3.0.0/5e804d15.js">
+<link rel="modulepreload" href="./_npm/d3-format@3.1.2/3785bf2d.js">
+<link rel="modulepreload" href="./_npm/d3-geo@3.1.1/40599fb3.js">
+<link rel="modulepreload" href="./_npm/d3-hierarchy@3.1.2/e49e792c.js">
+<link rel="modulepreload" href="./_npm/d3-interpolate@3.0.1/8d1e5425.js">
+<link rel="modulepreload" href="./_npm/d3-path@3.1.0/20d3f133.js">
+<link rel="modulepreload" href="./_npm/d3-polygon@3.0.1/7553081f.js">
+<link rel="modulepreload" href="./_npm/d3-quadtree@3.0.1/0dfd751c.js">
+<link rel="modulepreload" href="./_npm/d3-random@3.0.1/3c90ee06.js">
+<link rel="modulepreload" href="./_npm/d3-scale@4.0.2/720b7f0a.js">
+<link rel="modulepreload" href="./_npm/d3-scale-chromatic@3.1.0/ba24c2e7.js">
+<link rel="modulepreload" href="./_npm/d3-selection@3.0.0/4d94e5b7.js">
+<link rel="modulepreload" href="./_npm/d3-shape@3.2.0/6d3a6726.js">
+<link rel="modulepreload" href="./_npm/d3-time@3.1.0/9f03c579.js">
+<link rel="modulepreload" href="./_npm/d3-time-format@4.1.0/07c9626f.js">
+<link rel="modulepreload" href="./_npm/d3-timer@3.0.1/b58a267d.js">
+<link rel="modulepreload" href="./_npm/d3-transition@3.0.1/004da2ac.js">
+<link rel="modulepreload" href="./_npm/d3-zoom@3.0.0/b5786b3f.js">
+<link rel="modulepreload" href="./_npm/binary-search-bounds@2.0.5/cbf6ba23.js">
+<link rel="modulepreload" href="./_npm/internmap@2.0.3/e08981d9.js">
+<link rel="modulepreload" href="./_npm/delaunator@5.1.0/d4ec0aa1.js">
+<link rel="modulepreload" href="./_npm/robust-predicates@3.0.3/42820bfa.js">
+<link rel="icon" href="./_file/stellarlogo.575eca66.png" type="image/png" sizes="32x32">
+<script type="module">
+
+import {define} from "./_observablehq/client.aa340c2c.js";
+import {registerFile} from "./_observablehq/stdlib.277aeab8.js";
+
+registerFile("./assets/falchi_brazil_2015.png", {"name":"./assets/falchi_brazil_2015.png","mimeType":"image/png","path":"./_file/assets/falchi_brazil_2015.931bd3cf.png","lastModified":1782188273992,"size":1133994});
+registerFile("./assets/tiles/falchi/metadata.json", {"name":"./assets/tiles/falchi/metadata.json","mimeType":"application/json","path":"./_file/assets/tiles/falchi/metadata.af333012.json","lastModified":1782188274368,"size":173});
+registerFile("./assets/tiles/viirs/metadata.json", {"name":"./assets/tiles/viirs/metadata.json","mimeType":"application/json","path":"./_file/assets/tiles/viirs/metadata.e0f3fad7.json","lastModified":1782188274873,"size":171});
+registerFile("./assets/viirs_brazil_2024.png", {"name":"./assets/viirs_brazil_2024.png","mimeType":"image/png","path":"./_file/assets/viirs_brazil_2024.387cbbb2.png","lastModified":1782188274874,"size":74042});
+registerFile("./data/brazil-states.json", {"name":"./data/brazil-states.json","mimeType":"application/json","path":"./_file/data/brazil-states.d43c4bd9.json","lastModified":1782188274875,"size":360399});
+registerFile("./data/ceara_municipios.geojson", {"name":"./data/ceara_municipios.geojson","mimeType":"application/geo+json","path":"./_file/data/ceara_municipios.2c16f55f.geojson","lastModified":1782258278000,"size":991875});
+registerFile("./data/ceara_residuo_luminoso_municipios.csv", {"name":"./data/ceara_residuo_luminoso_municipios.csv","mimeType":"text/csv","path":"./_file/data/ceara_residuo_luminoso_municipios.f6d3d72a.csv","lastModified":1782261302000,"size":73869});
+registerFile("./data/falchi_2016_table2_light_pollution_selected_flags.csv", {"name":"./data/falchi_2016_table2_light_pollution_selected_flags.csv","mimeType":"text/csv","path":"./_file/data/falchi_2016_table2_light_pollution_selected_flags.aefd5f7b.csv","lastModified":1782188274875,"size":29022});
+registerFile("./data/viirs_brazil_states_2024.csv", {"name":"./data/viirs_brazil_states_2024.csv","mimeType":"text/csv","path":"./_file/data/viirs_brazil_states_2024.aa9c5b85.csv","lastModified":1780173286000,"size":2448});
+registerFile("./images/mundo.png", {"name":"./images/mundo.png","mimeType":"image/png","path":"./_file/images/mundo.eb2687a3.png","lastModified":1782188274893,"size":1398435});
+
+define({id: "7366078e", inputs: ["FileAttachment"], outputs: ["RasterTileMap","brazilStates","viirsPng","falchiPng","viirsTilesMeta","falchiTilesMeta"], body: async (FileAttachment) => {
+const {RasterTileMap} = await import("./_import/components/RasterTileMap.f5157737.js");
+
+const brazilStates = FileAttachment("./data/brazil-states.json").json({typed: true});
+
+const viirsPng = await FileAttachment("./assets/viirs_brazil_2024.png").href;
+const falchiPng = await FileAttachment("./assets/falchi_brazil_2015.png").href;
+
+
+let viirsTilesMeta = null;
+let falchiTilesMeta = null;
+try {
+  viirsTilesMeta = await FileAttachment("./assets/tiles/viirs/metadata.json").href;
+} catch (e) {
+  // tiles VIIRS ainda não gerados
+}
+try {
+  falchiTilesMeta = await FileAttachment("./assets/tiles/falchi/metadata.json").href;
+} catch (e) {
+  // tiles Falchi ainda não gerados
+}
+return {RasterTileMap,brazilStates,viirsPng,falchiPng,viirsTilesMeta,falchiTilesMeta};
+}});
+
+define({id: "76beabc2", mode: "inline", inputs: ["RasterTileMap","viirsTilesMeta","viirsPng","brazilStates","display"], body: async (RasterTileMap,viirsTilesMeta,viirsPng,brazilStates,display) => {
+display(await(
+RasterTileMap({
+      metadataUrl: viirsTilesMeta,
+      fallbackImage: viirsPng,
+      boundaries: brazilStates,
+      width: 820,
+      height: 760,
+      attribution: "VIIRS/VNL 2024 · Earth Observation Group"
+    })
+))
+}});
+
+define({id: "77c54235", mode: "inline", inputs: ["RasterTileMap","falchiTilesMeta","falchiPng","brazilStates","display"], body: async (RasterTileMap,falchiTilesMeta,falchiPng,brazilStates,display) => {
+display(await(
+RasterTileMap({
+      metadataUrl: falchiTilesMeta,
+      fallbackImage: falchiPng,
+      boundaries: brazilStates,
+      width: 820,
+      height: 760,
+      attribution: "Falchi et al. (2016), World Atlas 2015"
+    })
+))
+}});
+
+define({id: "fd2e783b", inputs: ["FileAttachment"], outputs: ["scatterPaises","falchi_raw","earthIconURL","falchi"], body: async (FileAttachment) => {
+const {scatterPaises} = await import("./_import/components/scatter_paises.cea3dd78.js");
+
+const falchi_raw = await FileAttachment("./data/falchi_2016_table2_light_pollution_selected_flags.csv").csv({typed: true});
+const earthIconURL = FileAttachment("./images/mundo.png").href;
+const falchi = falchi_raw.map((d) => ({...d, flag_URL: d.country_or_region === "World" ? earthIconURL : d.flag_URL}));
+return {scatterPaises,falchi_raw,earthIconURL,falchi};
+}});
+
+define({id: "ed53df04", mode: "inline", inputs: ["resize","scatterPaises","falchi","display"], body: async (resize,scatterPaises,falchi,display) => {
+display(await(
+resize((width) => scatterPaises(falchi, {width}))
+))
+}});
+
+define({id: "1ffc7546", outputs: ["barrasPaisesSelecionados"], body: async () => {
+const {barrasPaisesSelecionados} = await import("./_import/components/barras_paises.dfcd2948.js");
+
+return {barrasPaisesSelecionados};
+}});
+
+define({id: "ace9bb74", mode: "inline", inputs: ["resize","barrasPaisesSelecionados","falchi","display"], body: async (resize,barrasPaisesSelecionados,falchi,display) => {
+display(await(
+resize((width) => barrasPaisesSelecionados(falchi, {width}))
+))
+}});
+
+define({id: "887654fb", inputs: ["FileAttachment"], outputs: ["scatterEstados","rankingRadianciaTotal","rankingRadianciaMedia","radianciaPorRegiao","estados"], body: async (FileAttachment) => {
+const [{scatterEstados}, {rankingRadianciaTotal}, {rankingRadianciaMedia}, {radianciaPorRegiao}] = await Promise.all([import("./_import/components/scatter_estados.a0993239.js"), import("./_import/components/ranking_radiancia_total.ccc2554e.js"), import("./_import/components/ranking_radiancia_media.63acf352.js"), import("./_import/components/radiancia_por_regiao.fbd7de7d.js")]);
+
+const estados = await FileAttachment("./data/viirs_brazil_states_2024.csv").csv({
+  typed: true
+});
+return {scatterEstados,rankingRadianciaTotal,rankingRadianciaMedia,radianciaPorRegiao,estados};
+}});
+
+define({id: "576bdb4d", mode: "inline", inputs: ["resize","scatterEstados","estados","display"], body: async (resize,scatterEstados,estados,display) => {
+display(await(
+resize((width) => scatterEstados(estados, {width}))
+))
+}});
+
+define({id: "b6516b32", mode: "inline", inputs: ["resize","rankingRadianciaTotal","estados","display"], body: async (resize,rankingRadianciaTotal,estados,display) => {
+display(await(
+resize((width) => rankingRadianciaTotal(estados, {width, n: 12}))
+))
+}});
+
+define({id: "90f9cd24", mode: "inline", inputs: ["resize","rankingRadianciaMedia","estados","display"], body: async (resize,rankingRadianciaMedia,estados,display) => {
+display(await(
+resize((width) => rankingRadianciaMedia(estados, {width, n: 12}))
+))
+}});
+
+define({id: "45d4eadd", mode: "inline", inputs: ["resize","radianciaPorRegiao","estados","display"], body: async (resize,radianciaPorRegiao,estados,display) => {
+display(await(
+resize((width) => radianciaPorRegiao(estados, {width}))
+))
+}});
+
+define({id: "125fec5b", inputs: ["FileAttachment"], outputs: ["cearaRankingRadianciaTotal","cearaMapaResiduoLuminoso","cearaBarrasResiduoLuminoso","cearaResiduoVsAreaIluminada","cearaRankingCeuEscuro","ceara","cearaGeo"], body: async (FileAttachment) => {
+const [{cearaRankingRadianciaTotal}, {cearaMapaResiduoLuminoso}, {cearaBarrasResiduoLuminoso}, {cearaResiduoVsAreaIluminada}, {cearaRankingCeuEscuro}] = await Promise.all([import("./_import/components/ceara_ranking_radiancia_total.f59c2844.js"), import("./_import/components/ceara_mapa_residuo_luminoso.23dad37f.js"), import("./_import/components/ceara_barras_residuo_luminoso.94b98952.js"), import("./_import/components/ceara_residuo_vs_area_iluminada.376dba0a.js"), import("./_import/components/ceara_ranking_ceu_escuro.2f220b32.js")]);
+
+const ceara = await FileAttachment("./data/ceara_residuo_luminoso_municipios.csv").csv({typed: true});
+const cearaGeo = await FileAttachment("./data/ceara_municipios.geojson").json();
+return {cearaRankingRadianciaTotal,cearaMapaResiduoLuminoso,cearaBarrasResiduoLuminoso,cearaResiduoVsAreaIluminada,cearaRankingCeuEscuro,ceara,cearaGeo};
+}});
+
+define({id: "579cd70c", mode: "inline", inputs: ["resize","cearaRankingRadianciaTotal","ceara","display"], body: async (resize,cearaRankingRadianciaTotal,ceara,display) => {
+display(await(
+resize((width) => cearaRankingRadianciaTotal(ceara, {width, n: 15}))
+))
+}});
+
+define({id: "ec8c4af5", mode: "inline", inputs: ["resize","cearaMapaResiduoLuminoso","cearaGeo","ceara","display"], body: async (resize,cearaMapaResiduoLuminoso,cearaGeo,ceara,display) => {
+display(await(
+resize((width) => cearaMapaResiduoLuminoso(cearaGeo, ceara, {width}))
+))
+}});
+
+define({id: "29de76b0", mode: "inline", inputs: ["resize","cearaBarrasResiduoLuminoso","ceara","display"], body: async (resize,cearaBarrasResiduoLuminoso,ceara,display) => {
+display(await(
+resize((width) => cearaBarrasResiduoLuminoso(ceara, {width, n: 10}))
+))
+}});
+
+define({id: "64b03768", mode: "inline", inputs: ["resize","cearaResiduoVsAreaIluminada","ceara","display"], body: async (resize,cearaResiduoVsAreaIluminada,ceara,display) => {
+display(await(
+resize((width) => cearaResiduoVsAreaIluminada(ceara, {width}))
+))
+}});
+
+define({id: "6335e580", mode: "inline", inputs: ["resize","cearaRankingCeuEscuro","ceara","display"], body: async (resize,cearaRankingCeuEscuro,ceara,display) => {
+display(await(
+resize((width) => cearaRankingCeuEscuro(ceara, {width, n: 12}))
+))
+}});
+
+</script>
+</head>
+<body>
+<div id="observablehq-center">
+<main id="observablehq-main" class="observablehq">
+<!-- HEADER DA PÁGINA -->
+<div class="hero">
+  <h1>Onde Estão as Noites Escuras no Brasil?</h1>
+  <h2>Por Cleber Silva e Brício Freitas</h2>
+</div>
+<div class="hero">
+  <h2>O céu noturno natural não é apenas um recurso astronômico. Ele também faz parte da paisagem ambiental, cultural e biológica da vida humana. Um céu escuro permite que estrelas, planetas e a Via Láctea sejam vistos a olho nu. Além disso, sustenta ecossistemas noturnos, ritmos circadianos e a experiência da noite como uma condição natural distinta. Mas o avanço da tecnologia nos traz uma desconexão inconsciente com o céu. Neste artigo, vamos explorar como isso se dá.</h2>
+</div>
+<div class="section">
+  <h1>Conceito</h1>
+<p>A iluminação artificial desempenha diversas funções sociais e econômicas. Ela auxilia o transporte, a atividade urbana, a segurança, a indústria e a vida pública após o pôr do sol. Do espaço, o lado noturno da Terra se apresenta como redes luminosas que refletem essas características humanas. Essas imagens são impactantes porque revelam a geografia da atividade humana. Contudo, quando a luz artificial é excessiva, mal direcionada ou desnecessária, ela se espalha pelo ambiente e altera a própria noite. Esse fenômeno é comumente chamado de poluição luminosa. A figura abaixo mostra o efeito da poluição luminosa em diferentes áreas de acesso humano.</p>
+  <div class="grid grid-cols-1">
+    <div class="card">
+      <img src="./_file/images/different_skyes.50ef8d0f.png" style="width: {width}; height: auto;">
+    </div>
+  </div>
+<p>No entanto, a visão do satélite é uma visão de cima. O brilho medido por ele não é o mesmo que a poluição luminosa percebida pelas pessoas no solo. Ele captura a luz que viaja para cima ou é dispersa para cima em direção ao sensor. Não mostra diretamente o que uma pessoa vê quando está em uma cidade, área rural ou em um local protegido com céu escuro. A poluição luminosa depende não apenas da quantidade de luz emitida para cima, mas também de como essa luz se propaga pela atmosfera, como se dispersa, qual espectro possui e como afeta a visão humana e os sistemas ecológicos. Os dados de satélite são, portanto, um ponto de partida essencial, mas não contam toda a história. A poluição luminosa é medida em microcandelas por metro quadrado (µcd/m²) de brilho artificial somado ao céu. O limiar de <strong>1,7 µcd/m²</strong> marca o ponto em que o céu deixa de ser considerado pristino; acima de <strong>87 µcd/m²</strong>, a Via Láctea já não é mais visível a olho nu para a maioria das pessoas. A figura abaixo ilustra isso.</p>
+  <div class="grid grid-cols-1">
+    <div class="card">
+      <img src="./_file/images/light_pollution_scheeme_cut.33e4f61f.png" style="width: {width}; height: auto;">
+    </div>
+  </div>
+</div>
+<!-- MAPAS DO BRASIL -->
+<div class="observablehq observablehq--block"><!--:7366078e:--></div>
+<div class="section">
+  <h1>Dados</h1>
+<p>Para passar do conceito à medição, este projeto começa explorando dados do Annual VIIRS Nighttime Lights / VNL, do Earth Observation Group (EOG). Esses dados geográficos correspondem ao ano de 2024 e foram acessados usando o Google Earth Engine, focando apenas no território brasileiro. Depois de fazermos um préprocessamento, obtivemos o resultado abaixo:</p>
+<p><observablehq-loading></observablehq-loading><!--:76beabc2:--></p>
+<p><a href="https://www.science.org/doi/10.1126/sciadv.1600377" target="_blank" rel="noopener noreferrer">Falchi et al. (2016)</a> produziram um atlas global de poluição luminosa (o <em>New World Atlas of Artificial Night Sky Brightness</em>) usando de modelos atmosféricos complexos. O trabalho deles estima o brilho artificial do céu no zênite usando dados de satélite, modelagem de propagação atmosférica e calibração com medições de brilho do céu feitas em solo. O <a href="https://lightpollutionmap.app/" target="_blank" rel="noopener noreferrer">Light pollution Map</a> é um site que usa esses dados para mostrar todo o mapa mundial de poluição luminosa. Uma reprodução desse tipo de mapa para o território brasileiro encontra-se abaixo:</p>
+<p><observablehq-loading></observablehq-loading><!--:77c54235:--></p>
+<p>O atlas é útil porque conecta observações de satélite a uma quantidade relevante para o solo: a luminância artificial do céu. Em vez de perguntar apenas “Onde a Terra é brilhante à noite?”, o atlas faz uma pergunta mais ambiental, título da próxima seção.</p>
+</div>
+<div class="section">
+  <h1>Quanto brilho artificial é adicionado ao céu noturno acima de diferentes lugares na Terra?</h1>
+<p>O <em>New World Atlas of Artificial Night Sky Brightness</em> estima, para cada país, qual fração da população e do território está exposta a cada faixa de brilho artificial do céu. Começamos pela exposição da população, analisando quantas pessoas vivem sob algum grau de céu poluído. O gráfico abaixo mostra o percentual da população exposta a qualquer brilho artificial (&gt;1,7 µcd/m²). Nele, cada ponto é um país (ou agregado). No eixo vertical, a população exposta a qualquer brilho artificial, que é praticamente saturada perto de 100%. No horizontal, a porcentagem território ainda escuro. Detacamos países (ou agregados) de interesse para essas analises com as suas respectivas bandeiras. Também mostramos onde o próprio mundo (representado por uma logo de globo terrestre) se encontra nesse diagrama. Os dados foram retirados da tabela 2 de Falchi et al. (2016).</p>
+  <!-- SCATTER PLOT DOS PAÍSES -->
+<div class="observablehq observablehq--block"><!--:fd2e783b:--></div>
+  <div class="grid grid-cols-1">
+    <div class="card">
+      <observablehq-loading></observablehq-loading><!--:ed53df04:-->
+    </div>
+  </div>
+<p>Os países com população exposta à luz artificial abaixo de 80% são, em geral, aqueles onde a escuridão ainda coincide espacialmente com áreas habitadas, especialmente em contextos de baixa densidade urbana, grande população rural, menor intensidade de iluminação noturna e presença de extensas regiões naturais, desérticas, florestais, montanhosas ou insulares. Muitos deles estão na África subsaariana, além de alguns países asiáticos e arquipélagos, onde grandes centros urbanos luminosos são menos numerosos ou menos extensos. Isso não significa necessariamente melhor controle da poluição luminosa; muitas vezes reflete menor infraestrutura luminosa, menor urbanização ou ocupação mais dispersa. O contraste com o Brasil é importante: o país ainda possui grandes áreas escuras, mas elas abrigam uma parcela pequena da população, enquanto a maior parte dos brasileiros vive em regiões urbanas já expostas a níveis relevantes de brilho artificial do céu.Para os países (ou agregados) de interesse, geramos um gráfico de distribuição por faixa de brilho (µcd/m²), convertida de valores cumulativos para faixas não sobrepostas:</p>
+  <!-- ANÁLISE FOCADA NOS PAÍSES DE INTERESSE -->
+<div class="observablehq observablehq--block"><!--:1ffc7546:--></div>
+  <div class="grid grid-cols-1">
+    <div class="card">
+      <observablehq-loading></observablehq-loading><!--:ace9bb74:-->
+    </div>
+  </div>
+<p>O gráfico de barras mostra que, nas regiões selecionadas, uma parcela muito pequena da população vive sob condições verdadeiramente escuras. No caso do Brasil, a faixa de menor brilho artificial, abaixo de 1.7 µcd/m², praticamente não aparece, o que não significa ausência de áreas escuras no país, mas sim que essas áreas são pouco povoadas. Como o gráfico é ponderado pela população, países como Argentina, Canadá e Estados Unidos aparecem fortemente concentrados nas faixas mais intensas de brilho artificial, refletindo a concentração de habitantes em grandes centros urbanos ou corredores metropolitanos.</p>
+<p>China e Índia apresentam outro padrão: embora tenham enormes populações expostas à luz artificial, essa exposição se distribui mais pelas faixas intermediárias, com menor concentração relativa na classe extrema acima de 3000 µcd/m². O caso brasileiro reforça uma distinção central para a análise: a pergunta “onde ainda existem noites escuras?” não é equivalente a “quem vive sob noites escuras?”. O Brasil ainda conserva grandes extensões territoriais com céu pouco brilhante artificialmente, mas a maior parte da população vive em regiões urbanas e periurbanas onde o brilho artificial do céu já é elevado.</p>
+</div>
+<div class="observablehq observablehq--block"><!--:887654fb:--></div>
+<!-- BALANÇO DOS ESTADOS BRASILEIROS -->
+<div class="section">
+  <h1>Análise dos Estados Brasileiros</h1>
+<p>A radiância média e a radiância total contam histórias complementares sobre a iluminação noturna no território brasileiro. A radiância total indica quanto cada estado contribui para o brilho noturno observado por satélite no conjunto do país, enquanto a radiância média indica a intensidade média dessa emissão dentro do território estadual. Por isso, estados grandes e populosos podem ter radiância total elevada mesmo com média moderada, enquanto estados pequenos e altamente urbanizados podem ter média muito alta sem dominar o total nacional. Isso pode ser visto no gráfico abaixo.</p>
+  <div class="grid grid-cols-1">
+    <div class="card">
+      <h2>Radiância média e radiância total nos estados brasileiros</h2>
+      <observablehq-loading></observablehq-loading><!--:576bdb4d:-->
+    </div>
+  </div>
+<p>No gráfico de dispersão, São Paulo se destaca por combinar radiância média elevada com a maior radiância total do país, refletindo a escala de sua rede urbana e econômica. O Distrito Federal aparece como um caso distinto: sua radiância média é a mais alta entre os estados, mas sua radiância total é menor, devido à pequena extensão territorial. Minas Gerais, Bahia e Rio Grande do Sul aparecem com radiância total elevada, mas média mais moderada, indicando que a emissão luminosa se acumula sobre grandes áreas. O Ceará ocupa uma posição relevante no cenário nacional: não está entre os maiores valores médios, mas aparece entre os principais contribuintes em radiância total, o que justifica uma análise mais detalhada antes de passarmos à escala estadual. Além disso, o ranking de radiância total evidencia quais estados mais contribuem para a emissão luminosa noturna observada no Brasil. Como pode ser observado no gráfico abaixo da, São Paulo ocupa uma posição dominante, respondendo sozinho por aproximadamente um quinto da radiância total dos estados brasileiros. Em seguida aparecem Minas Gerais, Paraná, Bahia, Rio de Janeiro, Rio Grande do Sul e Santa Catarina, revelando o peso das regiões com redes urbanas extensas, alta concentração populacional e forte atividade econômica. Esse gráfico é importante porque a radiância total não mede apenas a intensidade local da iluminação, mas também o acúmulo espacial das fontes luminosas. Estados territorialmente grandes ou com muitas cidades médias podem aparecer com valores altos mesmo quando sua radiância média não é extrema. O Ceará aparece entre os dez maiores valores de radiância total do país, em posição próxima a Pernambuco, reforçando que o Nordeste não é apenas uma região periférica nessa análise: ele tem contribuição expressiva para o brilho noturno nacional.</p>
+  <div class="grid grid-cols-2">
+    <div class="card">
+      <h2>Estados com maior radiância total</h2>
+      <observablehq-loading></observablehq-loading><!--:b6516b32:-->
+    </div>
+    <div class="card">
+      <h2>Estados com maior radiância média</h2>
+      <observablehq-loading></observablehq-loading><!--:90f9cd24:-->
+    </div>
+  </div>
+<p>O ranking de radiância média destaca outro aspecto do problema: a intensidade média da luz emitida dentro de cada território estadual. Aqui, estados compactos e fortemente urbanizados ganham destaque. O Distrito Federal aparece em primeiro lugar, muito acima dos demais, porque concentra uma mancha urbana intensa em um território relativamente pequeno. Rio de Janeiro e São Paulo também aparecem entre os maiores valores, refletindo a forte urbanização e a concentração de infraestrutura luminosa. Esse gráfico deve ser lido com cuidado, porque uma radiância média alta não significa necessariamente que o estado tenha a maior contribuição total para o brilho do país. Ela indica que, proporcionalmente ao seu território, a emissão luminosa é mais intensa. Sergipe, Alagoas, Espírito Santo, Santa Catarina, Pernambuco e Paraíba aparecem bem posicionados por esse motivo. O Ceará surge em uma posição intermediária-alta: sua média não é tão extrema quanto a do Distrito Federal ou do Rio de Janeiro, mas é suficiente para colocá-lo acima de estados muito extensos, como Minas Gerais, Bahia, Goiás, Pará e Mato Grosso.</p>
+<p>Ao agrupar os estados por região no gráfico abaixo, fica claro que a radiância total brasileira é fortemente concentrada no Sudeste, que responde por cerca de 40% do total nacional. Isso é consistente com a presença de grandes metrópoles, alta densidade populacional, forte infraestrutura urbana e intensa atividade econômica. O Nordeste aparece em segundo lugar, com aproximadamente 24% da radiância total, superando Sul, Centro-Oeste e Norte. Esse resultado é especialmente importante para a narrativa do projeto. Embora o Sudeste concentre a maior parte da emissão luminosa, o Nordeste possui peso expressivo no balanço nacional. Isso cria uma transição natural para o Ceará: dentro de uma região que já contribui de forma significativa para a radiância total do Brasil, o estado aparece entre os principais destaques. A partir desse ponto, a análise pode deixar a escala nacional e investigar como essa luz se distribui internamente no Ceará, separando o peso de Fortaleza e da Região Metropolitana das demais áreas do estado.</p>
+  <div class="grid grid-cols-1">
+    <div class="card">
+      <h2>Participação regional na radiância total</h2>
+      <observablehq-loading></observablehq-loading><!--:45d4eadd:-->
+    </div>
+  </div>
+</div>
+<!-- DADOS DA SEÇÃO DO CEARÁ -->
+<div class="observablehq observablehq--block"><!--:125fec5b:--></div>
+<!-- RANKING DE RADIÂNCIA TOTAL -->
+<div class="grid grid-cols-1">
+  <div class="card">
+    <h2>Onde a luz noturna se concentra no Ceará?</h2>
+    <observablehq-loading></observablehq-loading><!--:579cd70c:-->
+  </div>
+</div>
+<!-- MAPA DO RESÍDUO LUMINOSO -->
+<div class="grid grid-cols-1">
+  <div class="card">
+    <h2>Municípios mais ou menos luminosos que o esperado</h2>
+    <observablehq-loading></observablehq-loading><!--:ec8c4af5:-->
+  </div>
+</div>
+<!-- BARRAS DE EXCESSO E DÉFICIT LUMINOSO -->
+<div class="grid grid-cols-1">
+  <div class="card">
+    <h2>Maiores excessos e déficits luminosos</h2>
+    <observablehq-loading></observablehq-loading><!--:29de76b0:-->
+  </div>
+</div>
+<!-- RESÍDUO VERSUS ÁREA ILUMINADA -->
+<div class="grid grid-cols-1">
+  <div class="card">
+    <h2>Brilho excedente: espalhado ou pontual?</h2>
+    <observablehq-loading></observablehq-loading><!--:64b03768:-->
+  </div>
+</div>
+<!-- CANDIDATOS A CÉU ESCURO -->
+<div class="grid grid-cols-1">
+  <div class="card">
+    <h2>Onde ainda procurar céus mais escuros?</h2>
+    <observablehq-loading></observablehq-loading><!--:6335e580:-->
+  </div>
+</div>
+<style>
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: var(--sans-serif);
+  margin: 4rem 0 8rem;
+  text-wrap: balance;
+  text-align: center;
+}
+
+.hero h1 {
+  margin: 1rem 0;
+  padding: 1rem 0;
+  max-width: none;
+  font-size: 14vw;
+  font-weight: 900;
+  line-height: 1;
+  background: linear-gradient(30deg, var(--theme-foreground-focus), currentColor);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.hero h2 {
+  margin: 0;
+  max-width: 34em;
+  font-size: 20px;
+  font-style: initial;
+  font-weight: 500;
+  line-height: 1.5;
+  color: var(--theme-foreground-muted);
+}
+
+@media (min-width: 640px) {
+  .hero h1 {
+    font-size: 90px;
+  }
+}
+
+</style>
+</main>
+<footer id="observablehq-footer">
+<div>Cleber Silva &amp; Brício Freitas · Universidade Federal do Ceará · Visualização de Dados 2026.1 · Profª. Emanuele Santos</div>
+</footer>
+</div>
+</body>
+</html>

@@ -6,7 +6,7 @@ export function scatterPaises(data, {width = 900} = {}) {
 
   return Plot.plot({
     width,
-    height: width*0.5,
+    height: width*0.35,
     marginTop: 35,
     x: {
       domain: [0, 100],

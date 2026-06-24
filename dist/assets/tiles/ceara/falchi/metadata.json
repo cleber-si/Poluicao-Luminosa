@@ -1,0 +1,8 @@
+{
+  "name": "ceara",
+  "tile_size": 256,
+  "minzoom": 6,
+  "maxzoom": 11,
+  "scheme": "xyz",
+  "bounds": [-41.52, -7.96, -37.15, -2.68]
+}

@@ -1,0 +1,9 @@
+arquivo,conteudo,ano,tipo,origem
+viirs_ceara_municipalities_2024.csv,Radiância VIIRS municipal filtrada para o Ceará,2024,usado,Arquivo derivado de viirs_brazil_municipalities_2024_v2.csv enviado no chat
+tabela_2_1_CE.xlsx,"População residente, área territorial e densidade demográfica municipal",Censo 2022 / tabela enviada,usado,Arquivo enviado no chat; usado para densidade demográfica do modelo
+POP2024_20241230.xls,Estimativas oficiais de população municipal com referência 1º julho de 2024,2024,recomendado_não_importado,IBGE; não foi possível importar automaticamente nesta execução
+PIB dos Municípios 2023,"PIB municipal, valor adicionado setorial e PIB per capita",2023,recomendado_não_importado,IBGE
+Novo Caged Perfil do Município,"Admissões, desligamentos, saldo e estoque de empregos formais por município e setor",2024,recomendado_não_importado,Ministério do Trabalho e Emprego
+Siconfi/Finbra Contas Anuais,"Receitas, despesas e capacidade fiscal municipal",2024,recomendado_não_importado,Tesouro Nacional
+CadÚnico/Bolsa Família/IVCAD,Vulnerabilidade social e cobertura de programas sociais,2024 ou mais recente,recomendado_não_importado,MDS
+ANEEL Mercado Cativo / DEC-FEC,"Consumo de energia, unidades consumidoras e qualidade do serviço elétrico",2024,recomendado_não_importado,ANEEL

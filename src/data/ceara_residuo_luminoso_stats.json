@@ -1,0 +1,154 @@
+{
+  "n_municipios": 184,
+  "total_sum_radiance": 343100.9539337158,
+  "fortaleza_share_pct": 14.023054679205313,
+  "top10_share_pct": 37.25327326317869,
+  "top20_share_pct": 49.530447893133875,
+  "model_intercept": -1.239605680061032,
+  "model_slope": 0.4546158654319763,
+  "r2": 0.819256876131394,
+  "rmse": 0.21065591673845063,
+  "top_positive_residual": [
+    {
+      "name_muni": "Eusébio",
+      "residuo_luminoso_log": 1.0176006970447564
+    },
+    {
+      "name_muni": "Maracanaú",
+      "residuo_luminoso_log": 0.8546027143440007
+    },
+    {
+      "name_muni": "Fortaleza",
+      "residuo_luminoso_log": 0.8335203384282615
+    },
+    {
+      "name_muni": "Aquiraz",
+      "residuo_luminoso_log": 0.614346637226912
+    },
+    {
+      "name_muni": "São Gonçalo Do Amarante",
+      "residuo_luminoso_log": 0.5042849728689351
+    },
+    {
+      "name_muni": "Juazeiro Do Norte",
+      "residuo_luminoso_log": 0.43920008951106304
+    },
+    {
+      "name_muni": "Aiuaba",
+      "residuo_luminoso_log": 0.42194410859228737
+    },
+    {
+      "name_muni": "Arneiroz",
+      "residuo_luminoso_log": 0.35345488897835203
+    },
+    {
+      "name_muni": "Alto Santo",
+      "residuo_luminoso_log": 0.352890885022
+    },
+    {
+      "name_muni": "Independência",
+      "residuo_luminoso_log": 0.33433286449974087
+    }
+  ],
+  "top_negative_residual": [
+    {
+      "name_muni": "Uruburetama",
+      "residuo_luminoso_log": -0.672383828161544
+    },
+    {
+      "name_muni": "Palmácia",
+      "residuo_luminoso_log": -0.40566381631428405
+    },
+    {
+      "name_muni": "Pacoti",
+      "residuo_luminoso_log": -0.3759930895259166
+    },
+    {
+      "name_muni": "Baturité",
+      "residuo_luminoso_log": -0.374421486176455
+    },
+    {
+      "name_muni": "Porteiras",
+      "residuo_luminoso_log": -0.35472726101986735
+    },
+    {
+      "name_muni": "Mulungu",
+      "residuo_luminoso_log": -0.3371617308387346
+    },
+    {
+      "name_muni": "Itapajé",
+      "residuo_luminoso_log": -0.3198293647234446
+    },
+    {
+      "name_muni": "Chaval",
+      "residuo_luminoso_log": -0.3159254531160509
+    },
+    {
+      "name_muni": "São Benedito",
+      "residuo_luminoso_log": -0.3030129750962186
+    },
+    {
+      "name_muni": "Aratuba",
+      "residuo_luminoso_log": -0.28991533234363454
+    }
+  ],
+  "class_counts": {
+    "próximo ao padrão esperado": 54,
+    "menos luminoso que o esperado": 37,
+    "mais luminoso que o esperado": 37,
+    "muito mais luminoso que o esperado": 28,
+    "muito menos luminoso que o esperado": 28
+  },
+  "profile_summary": [
+    {
+      "perfil_luminoso": "contribuinte relevante no total estadual",
+      "n_municipios": 31,
+      "radiancia_total": 118936.27514648438,
+      "radiancia_total_share_pct": 34.665096025778425,
+      "radiancia_media_mediana": 0.7494916298069543,
+      "residuo_mediano": 0.04933948489941725,
+      "densidade_mediana": 59.77,
+      "area_acima_1_mediana": 17.856034750232702
+    },
+    {
+      "perfil_luminoso": "brilho excedente espalhado",
+      "n_municipios": 14,
+      "radiancia_total": 102833.31719970703,
+      "radiancia_total_share_pct": 29.971737478635387,
+      "radiancia_media_mediana": 3.2697326438314356,
+      "residuo_mediano": 0.2528126828178962,
+      "densidade_mediana": 115.6,
+      "area_acima_1_mediana": 46.015141361773374
+    },
+    {
+      "perfil_luminoso": "perfil intermediário",
+      "n_municipios": 101,
+      "radiancia_total": 79688.0859375,
+      "radiancia_total_share_pct": 23.225842138840296,
+      "radiancia_media_mediana": 0.3286953803885093,
+      "residuo_mediano": -0.014640717631939276,
+      "densidade_mediana": 28.18,
+      "area_acima_1_mediana": 5.573419078242229
+    },
+    {
+      "perfil_luminoso": "denso, mas menos luminoso que o esperado",
+      "n_municipios": 28,
+      "radiancia_total": 33055.69859313965,
+      "radiancia_total_share_pct": 9.634394254562675,
+      "radiancia_media_mediana": 0.6374905948471706,
+      "residuo_mediano": -0.24345039936849325,
+      "densidade_mediana": 83.77,
+      "area_acima_1_mediana": 17.211182635196067
+    },
+    {
+      "perfil_luminoso": "brilho excedente pontual",
+      "n_municipios": 10,
+      "radiancia_total": 8587.577056884766,
+      "radiancia_total_share_pct": 2.502930102183223,
+      "radiancia_media_mediana": 0.09585486607082469,
+      "residuo_mediano": 0.24929514917416246,
+      "densidade_mediana": 9.73,
+      "area_acima_1_mediana": 1.417687990104589
+    }
+  ]
+}
