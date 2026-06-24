@@ -12,7 +12,7 @@
 <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&amp;display=swap" crossorigin>
 <link rel="stylesheet" type="text/css" href="./_observablehq/theme-midnight.090888f6.css">
 <link rel="stylesheet" type="text/css" href="./_npm/leaflet@1.9.4/dist/leaflet.css">
-<link rel="modulepreload" href="./_observablehq/client.aa340c2c.js">
+<link rel="modulepreload" href="./_observablehq/client.10c9a892.js">
 <link rel="modulepreload" href="./_observablehq/runtime.607a8173.js">
 <link rel="modulepreload" href="./_observablehq/stdlib.277aeab8.js">
 <link rel="modulepreload" href="./_import/components/RasterTileMap.f5157737.js">
@@ -22,11 +22,12 @@
 <link rel="modulepreload" href="./_import/components/ranking_radiancia_total.ccc2554e.js">
 <link rel="modulepreload" href="./_import/components/ranking_radiancia_media.63acf352.js">
 <link rel="modulepreload" href="./_import/components/radiancia_por_regiao.fbd7de7d.js">
-<link rel="modulepreload" href="./_import/components/ceara_ranking_radiancia_total.f59c2844.js">
-<link rel="modulepreload" href="./_import/components/ceara_mapa_residuo_luminoso.23dad37f.js">
-<link rel="modulepreload" href="./_import/components/ceara_barras_residuo_luminoso.94b98952.js">
-<link rel="modulepreload" href="./_import/components/ceara_residuo_vs_area_iluminada.376dba0a.js">
-<link rel="modulepreload" href="./_import/components/ceara_ranking_ceu_escuro.2f220b32.js">
+<link rel="modulepreload" href="./_import/components/ceara_ranking_radiancia_total.e57053f9.js">
+<link rel="modulepreload" href="./_import/components/ceara_mapa_residuo_luminoso.1d4be505.js">
+<link rel="modulepreload" href="./_import/components/ceara_barras_residuo_luminoso.0e091c73.js">
+<link rel="modulepreload" href="./_import/components/ceara_residuo_vs_area_iluminada.9334c509.js">
+<link rel="modulepreload" href="./_import/components/ceara_ranking_ceu_escuro.4577c96e.js">
+<link rel="modulepreload" href="./_import/components/ceara_grafico_residuo_luminoso.f153bd8e.js">
 <link rel="modulepreload" href="./_npm/leaflet@1.9.4/721623d8.js">
 <link rel="modulepreload" href="./_npm/@observablehq/plot@0.6.17/a96a6bbb.js">
 <link rel="modulepreload" href="./_npm/d3@7.9.0/66d82917.js">
@@ -69,19 +70,19 @@
 <link rel="icon" href="./_file/stellarlogo.575eca66.png" type="image/png" sizes="32x32">
 <script type="module">
 
-import {define} from "./_observablehq/client.aa340c2c.js";
+import {define} from "./_observablehq/client.10c9a892.js";
 import {registerFile} from "./_observablehq/stdlib.277aeab8.js";
 
-registerFile("./assets/falchi_brazil_2015.png", {"name":"./assets/falchi_brazil_2015.png","mimeType":"image/png","path":"./_file/assets/falchi_brazil_2015.931bd3cf.png","lastModified":1782188273992,"size":1133994});
-registerFile("./assets/tiles/falchi/metadata.json", {"name":"./assets/tiles/falchi/metadata.json","mimeType":"application/json","path":"./_file/assets/tiles/falchi/metadata.af333012.json","lastModified":1782188274368,"size":173});
-registerFile("./assets/tiles/viirs/metadata.json", {"name":"./assets/tiles/viirs/metadata.json","mimeType":"application/json","path":"./_file/assets/tiles/viirs/metadata.e0f3fad7.json","lastModified":1782188274873,"size":171});
-registerFile("./assets/viirs_brazil_2024.png", {"name":"./assets/viirs_brazil_2024.png","mimeType":"image/png","path":"./_file/assets/viirs_brazil_2024.387cbbb2.png","lastModified":1782188274874,"size":74042});
-registerFile("./data/brazil-states.json", {"name":"./data/brazil-states.json","mimeType":"application/json","path":"./_file/data/brazil-states.d43c4bd9.json","lastModified":1782188274875,"size":360399});
-registerFile("./data/ceara_municipios.geojson", {"name":"./data/ceara_municipios.geojson","mimeType":"application/geo+json","path":"./_file/data/ceara_municipios.2c16f55f.geojson","lastModified":1782258278000,"size":991875});
-registerFile("./data/ceara_residuo_luminoso_municipios.csv", {"name":"./data/ceara_residuo_luminoso_municipios.csv","mimeType":"text/csv","path":"./_file/data/ceara_residuo_luminoso_municipios.f6d3d72a.csv","lastModified":1782261302000,"size":73869});
-registerFile("./data/falchi_2016_table2_light_pollution_selected_flags.csv", {"name":"./data/falchi_2016_table2_light_pollution_selected_flags.csv","mimeType":"text/csv","path":"./_file/data/falchi_2016_table2_light_pollution_selected_flags.aefd5f7b.csv","lastModified":1782188274875,"size":29022});
-registerFile("./data/viirs_brazil_states_2024.csv", {"name":"./data/viirs_brazil_states_2024.csv","mimeType":"text/csv","path":"./_file/data/viirs_brazil_states_2024.aa9c5b85.csv","lastModified":1780173286000,"size":2448});
-registerFile("./images/mundo.png", {"name":"./images/mundo.png","mimeType":"image/png","path":"./_file/images/mundo.eb2687a3.png","lastModified":1782188274893,"size":1398435});
+registerFile("./assets/falchi_brazil_2015.png", {"name":"./assets/falchi_brazil_2015.png","mimeType":"image/png","path":"./_file/assets/falchi_brazil_2015.931bd3cf.png","lastModified":1782317694897,"size":1133994});
+registerFile("./assets/tiles/falchi/metadata.json", {"name":"./assets/tiles/falchi/metadata.json","mimeType":"application/json","path":"./_file/assets/tiles/falchi/metadata.af333012.json","lastModified":1782317695585,"size":173});
+registerFile("./assets/tiles/viirs/metadata.json", {"name":"./assets/tiles/viirs/metadata.json","mimeType":"application/json","path":"./_file/assets/tiles/viirs/metadata.e0f3fad7.json","lastModified":1782317696327,"size":171});
+registerFile("./assets/viirs_brazil_2024.png", {"name":"./assets/viirs_brazil_2024.png","mimeType":"image/png","path":"./_file/assets/viirs_brazil_2024.387cbbb2.png","lastModified":1782317696327,"size":74042});
+registerFile("./data/brazil-states.json", {"name":"./data/brazil-states.json","mimeType":"application/json","path":"./_file/data/brazil-states.d43c4bd9.json","lastModified":1782317696330,"size":360399});
+registerFile("./data/ceara_municipios.geojson", {"name":"./data/ceara_municipios.geojson","mimeType":"application/geo+json","path":"./_file/data/ceara_municipios.2c16f55f.geojson","lastModified":1782317696333,"size":991875});
+registerFile("./data/ceara_residuo_luminoso_municipios.csv", {"name":"./data/ceara_residuo_luminoso_municipios.csv","mimeType":"text/csv","path":"./_file/data/ceara_residuo_luminoso_municipios.f6d3d72a.csv","lastModified":1782317696333,"size":73869});
+registerFile("./data/falchi_2016_table2_light_pollution_selected_flags.csv", {"name":"./data/falchi_2016_table2_light_pollution_selected_flags.csv","mimeType":"text/csv","path":"./_file/data/falchi_2016_table2_light_pollution_selected_flags.aefd5f7b.csv","lastModified":1782317696334,"size":29022});
+registerFile("./data/viirs_brazil_states_2024.csv", {"name":"./data/viirs_brazil_states_2024.csv","mimeType":"text/csv","path":"./_file/data/viirs_brazil_states_2024.aa9c5b85.csv","lastModified":1782317696337,"size":2448});
+registerFile("./images/mundo.png", {"name":"./images/mundo.png","mimeType":"image/png","path":"./_file/images/mundo.eb2687a3.png","lastModified":1782317696387,"size":1398435});
 
 define({id: "7366078e", inputs: ["FileAttachment"], outputs: ["RasterTileMap","brazilStates","viirsPng","falchiPng","viirsTilesMeta","falchiTilesMeta"], body: async (FileAttachment) => {
 const {RasterTileMap} = await import("./_import/components/RasterTileMap.f5157737.js");
@@ -193,17 +194,26 @@ resize((width) => radianciaPorRegiao(estados, {width}))
 ))
 }});
 
-define({id: "125fec5b", inputs: ["FileAttachment"], outputs: ["cearaRankingRadianciaTotal","cearaMapaResiduoLuminoso","cearaBarrasResiduoLuminoso","cearaResiduoVsAreaIluminada","cearaRankingCeuEscuro","ceara","cearaGeo"], body: async (FileAttachment) => {
-const [{cearaRankingRadianciaTotal}, {cearaMapaResiduoLuminoso}, {cearaBarrasResiduoLuminoso}, {cearaResiduoVsAreaIluminada}, {cearaRankingCeuEscuro}] = await Promise.all([import("./_import/components/ceara_ranking_radiancia_total.f59c2844.js"), import("./_import/components/ceara_mapa_residuo_luminoso.23dad37f.js"), import("./_import/components/ceara_barras_residuo_luminoso.94b98952.js"), import("./_import/components/ceara_residuo_vs_area_iluminada.376dba0a.js"), import("./_import/components/ceara_ranking_ceu_escuro.2f220b32.js")]);
+define({id: "994982cc", inputs: ["FileAttachment"], outputs: ["cearaRankingRadianciaTotal","cearaMapaResiduoLuminoso","cearaBarrasResiduoLuminoso","cearaResiduoVsAreaIluminada","cearaRankingCeuEscuro","cearaGraficoResiduoLuminoso","ceara_residuo","ceara","cearaGeo"], body: async (FileAttachment) => {
+const [{cearaRankingRadianciaTotal}, {cearaMapaResiduoLuminoso}, {cearaBarrasResiduoLuminoso}, {cearaResiduoVsAreaIluminada}, {cearaRankingCeuEscuro}, {cearaGraficoResiduoLuminoso}] = await Promise.all([import("./_import/components/ceara_ranking_radiancia_total.e57053f9.js"), import("./_import/components/ceara_mapa_residuo_luminoso.1d4be505.js"), import("./_import/components/ceara_barras_residuo_luminoso.0e091c73.js"), import("./_import/components/ceara_residuo_vs_area_iluminada.9334c509.js"), import("./_import/components/ceara_ranking_ceu_escuro.4577c96e.js"), import("./_import/components/ceara_grafico_residuo_luminoso.f153bd8e.js")]);
 
+const ceara_residuo = await FileAttachment("./data/ceara_residuo_luminoso_municipios.csv").csv({
+  typed: true
+});
 const ceara = await FileAttachment("./data/ceara_residuo_luminoso_municipios.csv").csv({typed: true});
 const cearaGeo = await FileAttachment("./data/ceara_municipios.geojson").json();
-return {cearaRankingRadianciaTotal,cearaMapaResiduoLuminoso,cearaBarrasResiduoLuminoso,cearaResiduoVsAreaIluminada,cearaRankingCeuEscuro,ceara,cearaGeo};
+return {cearaRankingRadianciaTotal,cearaMapaResiduoLuminoso,cearaBarrasResiduoLuminoso,cearaResiduoVsAreaIluminada,cearaRankingCeuEscuro,cearaGraficoResiduoLuminoso,ceara_residuo,ceara,cearaGeo};
 }});
 
-define({id: "579cd70c", mode: "inline", inputs: ["resize","cearaRankingRadianciaTotal","ceara","display"], body: async (resize,cearaRankingRadianciaTotal,ceara,display) => {
+define({id: "6f78f31b", mode: "inline", inputs: ["resize","cearaRankingRadianciaTotal","ceara","display"], body: async (resize,cearaRankingRadianciaTotal,ceara,display) => {
 display(await(
-resize((width) => cearaRankingRadianciaTotal(ceara, {width, n: 15}))
+resize((width) => cearaRankingRadianciaTotal(ceara, {width, n: 10}))
+))
+}});
+
+define({id: "ebe3cb86", mode: "inline", inputs: ["resize","cearaGraficoResiduoLuminoso","ceara_residuo","display"], body: async (resize,cearaGraficoResiduoLuminoso,ceara_residuo,display) => {
+display(await(
+resize((width) => cearaGraficoResiduoLuminoso(ceara_residuo, {width}))
 ))
 }});
 
@@ -213,9 +223,9 @@ resize((width) => cearaMapaResiduoLuminoso(cearaGeo, ceara, {width}))
 ))
 }});
 
-define({id: "29de76b0", mode: "inline", inputs: ["resize","cearaBarrasResiduoLuminoso","ceara","display"], body: async (resize,cearaBarrasResiduoLuminoso,ceara,display) => {
+define({id: "e76ed708", mode: "inline", inputs: ["resize","cearaBarrasResiduoLuminoso","ceara","display"], body: async (resize,cearaBarrasResiduoLuminoso,ceara,display) => {
 display(await(
-resize((width) => cearaBarrasResiduoLuminoso(ceara, {width, n: 10}))
+resize((width) => cearaBarrasResiduoLuminoso(ceara, {width, n: 5}))
 ))
 }});
 
@@ -322,41 +332,60 @@ resize((width) => cearaRankingCeuEscuro(ceara, {width, n: 12}))
   </div>
 </div>
 <!-- DADOS DA SEÇÃO DO CEARÁ -->
-<div class="observablehq observablehq--block"><!--:125fec5b:--></div>
-<!-- RANKING DE RADIÂNCIA TOTAL -->
-<div class="grid grid-cols-1">
-  <div class="card">
-    <h2>Onde a luz noturna se concentra no Ceará?</h2>
-    <observablehq-loading></observablehq-loading><!--:579cd70c:-->
+<div class="observablehq observablehq--block"><!--:994982cc:--></div>
+<div class="section">
+  <h1>Análise do Céu Noturno no Ceará</h1>
+<p>Antes de perguntar onde ainda existem noites escuras, precisamos entender onde a luz artificial está mais concentrada. O ranking de radiância total abaixo mostra os 10 municípios que mais contribuem para o brilho noturno observado por satélite no Ceará. Fortaleza aparece como o principal centro emissor, mas a luz noturna do estado não se limita à capital: municípios da Região Metropolitana, do litoral e polos regionais como Sobral e Juazeiro do Norte também aparecem entre os maiores valores. Esse primeiro gráfico mostra, portanto, a geografia básica da emissão luminosa cearense: uma concentração forte na metrópole, mas acompanhada por núcleos importantes no interior e em áreas estratégicas do território.</p>
+  <!-- RANKING DE RADIÂNCIA TOTAL -->
+  <div class="grid grid-cols-1">
+    <div class="card">
+      <h2>Onde a luz noturna se concentra no Ceará?</h2>
+      <observablehq-loading></observablehq-loading><!--:6f78f31b:-->
+    </div>
   </div>
-</div>
-<!-- MAPA DO RESÍDUO LUMINOSO -->
-<div class="grid grid-cols-1">
-  <div class="card">
-    <h2>Municípios mais ou menos luminosos que o esperado</h2>
-    <observablehq-loading></observablehq-loading><!--:ec8c4af5:-->
+<p>No entanto, a radiância total favorece naturalmente municípios mais populosos, urbanizados ou territorialmente extensos. Por isso, o próximo passo é perguntar se esses municípios são luminosos apenas porque concentram mais pessoas, ou se alguns deles brilham mais do que seria esperado para sua densidade demográfica. Para separar o efeito da densidade populacional da emissão luminosa propriamente dita, usamos um modelo que relaciona a radiância média municipal com a densidade demográfica. A linha do gráfico abaixo representa o valor esperado: municípios próximos a ela seguem o padrão geral do Ceará, municípios acima da linha são mais luminosos do que o esperado e municípios abaixo são menos luminosos do que o esperado. A cor dos pontos traduz essa diferença, chamada aqui de resíduo luminoso.</p>
+  <!-- SCATTER DO RESÍDUO LUMINOSO -->
+  <div class="grid grid-cols-1">
+    <div class="card">
+      <observablehq-loading></observablehq-loading><!--:ebe3cb86:-->
+    </div>
   </div>
-</div>
-<!-- BARRAS DE EXCESSO E DÉFICIT LUMINOSO -->
-<div class="grid grid-cols-1">
-  <div class="card">
-    <h2>Maiores excessos e déficits luminosos</h2>
-    <observablehq-loading></observablehq-loading><!--:29de76b0:-->
+<p>Essa análise muda a interpretação. Fortaleza, Maracanaú, Eusébio, Aquiraz e São Gonçalo do Amarante não se destacam apenas porque estão em áreas densas ou urbanizadas, mas porque apresentam radiância acima do padrão esperado para sua densidade. Essa intensidade luminosa pode estar associada não apenas à concentração populacional, mas também à infraestrutura urbana, atividades econômicas, polos industriais, turismo, circulação viária ou centralidade regional. Fortaleza, por exemplo, figura como o grande centro urbano do estado. Maracanaú e São Gonçalo do Amarante refletem dinâmicas industriais e logísticas, enquanto Juazeiro do Norte se destaca como um polo regional crucial no Cariri. Já outros municípios aparecem menos luminosos do que o modelo preveria, sugerindo padrões urbanos mais compactos, menor intensidade de iluminação artificial ou características locais que reduzem a emissão observada por satélite. Depois de identificar esses desvios no gráfico, o passo seguinte é observar nos mapas abaixo onde eles aparecem no território.</p>
+  <!-- MAPA DO RESÍDUO LUMINOSO -->
+  <div class="grid grid-cols-2">
+      <div class="card">
+      <h2>Municípios mais ou menos luminosos que o esperado</h2>
+      <observablehq-loading></observablehq-loading><!--:ec8c4af5:-->
+    </div>
+    <div class="card">
+      <img src="./_file/images/ceara_falchi_map_2015_tranparent.995ba8dd.png" style="width: {width}; height: auto;">
+    </div>
   </div>
-</div>
-<!-- RESÍDUO VERSUS ÁREA ILUMINADA -->
-<div class="grid grid-cols-1">
-  <div class="card">
-    <h2>Brilho excedente: espalhado ou pontual?</h2>
-    <observablehq-loading></observablehq-loading><!--:64b03768:-->
+<p>O mapa do resíduo luminoso espacializa a análise anterior. Em vez de mostrar apenas os municípios mais brilhantes em termos absolutos, ele mostra onde a luz é maior ou menor do que o esperado pela densidade demográfica. Isso ajuda a revelar padrões territoriais: excessos luminosos associados à Região Metropolitana de Fortaleza, ao litoral, a polos regionais e a possíveis áreas de infraestrutura, enquanto alguns municípios serranos ou interiores aparecem com valores abaixo do esperado. A comparação com o mapa de brilho artificial do céu reforça uma distinção importante do projeto: a radiância VIIRS mede a luz emitida para cima e observada por satélite, enquanto o brilho artificial do céu representa melhor a luz espalhada na atmosfera e percebida como poluição luminosa. Assim, os dois mapas não precisam coincidir perfeitamente. O primeiro mostra fontes e padrões de emissão considerando demografia, ao passo que o segundo aproxima melhor a experiência do céu noturno. Essa diferença prepara a próxima pergunta: quais municípios são os casos mais extremos desse desvio?</p>
+  <!-- BARRAS DE EXCESSO E DÉFICIT LUMINOSO -->
+  <div class="grid grid-cols-1">
+    <div class="card">
+      <h2>Maiores excessos e déficits luminosos</h2>
+      <observablehq-loading></observablehq-loading><!--:e76ed708:-->
+    </div>
   </div>
-</div>
-<!-- CANDIDATOS A CÉU ESCURO -->
-<div class="grid grid-cols-1">
-  <div class="card">
-    <h2>Onde ainda procurar céus mais escuros?</h2>
-    <observablehq-loading></observablehq-loading><!--:6335e580:-->
+<p>O gráfico de barras acima resume os casos mais extremos do modelo. De um lado estão os municípios com maior excesso luminoso, ou seja, aqueles que emitem mais luz do que seria esperado para sua densidade demográfica. Do outro estão os maiores déficits luminosos, municípios menos luminosos do que o esperado. Essa visualização é útil porque transforma o modelo estatístico em uma leitura direta: quem está acima e quem está abaixo do padrão estadual. Os maiores excessos podem estar associados a urbanização intensa, iluminação pública, atividade econômica, turismo, eixos viários, áreas industriais ou infraestrutura específica. Já os déficits não significam ausência de ocupação humana, mas sim menor emissão luminosa relativa. Isso torna o resíduo luminoso uma métrica mais interpretativa do que a radiância bruta. Ainda assim, resta uma dúvida importante: o excesso de luz está espalhado pelo município ou concentrado em poucos pontos muito intensos?</p>
+  <!-- RESÍDUO VERSUS ÁREA ILUMINADA -->
+  <div class="grid grid-cols-1">
+    <div class="card">
+      <h2>Brilho excedente: espalhado ou pontual?</h2>
+      <observablehq-loading></observablehq-loading><!--:64b03768:-->
+    </div>
   </div>
+<p>A relação mostrada no gráfico acima entre resíduo luminoso e área iluminada ajuda a diferenciar dois tipos de municípios. Alguns combinam resíduo positivo com grande porcentagem de área acima do limiar de radiância, indicando uma iluminação mais espalhada pelo território. Outros têm resíduo positivo, mas área iluminada menor, sugerindo que poucos focos intensos podem elevar a média municipal sem representar uma mancha luminosa ampla. Essa distinção é essencial para evitar interpretações simplistas. Dois municípios podem ter excesso luminoso, mas por razões diferentes: um pode ter uma malha urbana extensa e iluminada; outro pode ter uma instalação industrial, porto, rodovia, equipamento turístico ou núcleo urbano concentrado. Depois de entender onde a luz se concentra, onde ela excede o esperado e se esse excesso é espalhado ou pontual, podemos inverter a pergunta: onde ainda seria possível procurar céus mais escuros?</p>
+  <!-- CANDIDATOS A CÉU ESCURO -->
+  <div class="grid grid-cols-1">
+    <div class="card">
+      <h2>Onde ainda procurar céus mais escuros?</h2>
+      <observablehq-loading></observablehq-loading><!--:6335e580:-->
+    </div>
+  </div>
+<p>O ranking de candidatos a céu escuro muda o foco da análise. Em vez de destacar os municípios mais luminosos, ele procura aqueles com menor radiância média, menor área iluminada e menor contribuição para a luz noturna estadual. Essa visualização responde a uma pergunta mais próxima do leitor: onde, em princípio, ainda haveria melhores condições para observar um céu noturno menos afetado pela iluminação artificial? Vemos que os municípios de Aiuba, Tarrafas e Poranga se destacam nesse quesito. Essa resposta, porém, precisa ser lida como um ponto de partida, não como uma recomendação final de observação. Um bom local para observar o céu depende também de acesso, segurança, hospedagem, relevo, cobertura de nuvens, estação do ano, fase da Lua e distância real das fontes luminosas. Portanto, os dados VIIRS ajudam a indicar municípios promissores, mas a escolha de locais de observação exige cruzar essa informação com critérios práticos e ambientais. Em essência, regiões em preto, cinza, azul e verde no mapa de poluição luminosa já representam boas escolhas de observação.</p>
 </div>
 <style>
 
